@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="66px" viewBox="0 0 120 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>群組 3</title>
+    <g id="組件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu4" transform="translate(-11.000000, 1.000000)">
+            <g id="群組-3" transform="translate(11.000000, -0.500000)">
+                <rect id="矩形" fill="#FFFFFF" x="0" y="0" width="120" height="65"></rect>
+                <rect id="矩形" fill="#EA7162" x="0" y="59.5" width="20" height="5"></rect>
+                <rect id="矩形copy-6" fill="#FEE323" x="40" y="59.5" width="20" height="5"></rect>
+                <rect id="矩形copy-6copy" fill="#1192C8" x="80" y="59.5" width="20" height="5"></rect>
+                <rect id="矩形copy" fill="#FE9C00" x="20" y="59.5" width="20" height="5"></rect>
+                <rect id="矩形copycopy" fill="#7DDF14" x="60" y="59.5" width="20" height="5"></rect>
+                <rect id="矩形copycopycopy" fill="#F699DC" x="100" y="59.5" width="20" height="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

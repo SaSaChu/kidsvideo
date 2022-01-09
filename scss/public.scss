@@ -1,0 +1,99 @@
+@import "Ginkgo";
+@import "color";
+
+html {
+  font-size: 13px;
+}
+
+body {
+  position: relative;
+
+  display: inline-block;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  color: rgba(90, 90, 90, 1.00);
+
+  text-align: center;
+  font-family: "微軟正黑體", "Open sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  
+  // 文字染色，背景色、文字色
+  @include selection(rgba(120, 186, 255, 1.00), rgba(255, 255, 255, 1));
+}
+
+.testboxs {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.allBoxs {
+  display: inline-block;
+  width: 100%;
+  max-width: 1190px;
+  @include clearfix();
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid rgba(217, 217, 199, 1.00);
+  padding: 20px 0;
+  @include clearfix();
+
+  img {
+    width: 100%;
+    max-width: 210px;
+    float: left;
+
+    @include range-width(0, 450px) {
+      max-width: 150px;
+      float: inherit;
+      margin-bottom: 15px;
+    }
+  }
+
+  .copyright {
+    display: inline-block;
+    width: 42%;
+    float: right;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $c-F-Text;
+    text-align: left;
+
+    @include range-width(0, 450px) {
+      font-size: .9rem;
+      width: 100%;
+      text-align: center;
+      line-height: 1.3;
+    }
+  }
+}
+
+.menuboxs {
+  display: inline-block;
+  width: 100%;
+  background-image: url(../img/rainbow.svg);
+  background-repeat: repeat-x;
+
+  height: 65px;
+}
+
+.boxs7 {
+  display: inline-block;
+  width: calc(100% / 7);
+  float: left;
+  // d
+  height: 65px;
+  border: 1px solid rgba(255, 0, 0, .3);
+}
+
+
+
+
+
+
+
