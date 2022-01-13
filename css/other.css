@@ -1,1 +1,7 @@
 *, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
+
+.h60 { height: 60px; }
+
+.border-dotted-e { border-right: 1px dotted #002e49; }
+
+.v-cover { display: inline-block; width: 100%; max-width: 300px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; overflow: hidden; }

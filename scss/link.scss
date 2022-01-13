@@ -1,2 +1,163 @@
 @import "Ginkgo";
 @import "color";
+
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.menu {
+	display: inline-block;
+	width: 100%;
+	font-size: 1.3rem;
+	color: $c-deepblue;
+	@include transition(all .3s);
+	text-align: center;
+
+	&:after {
+		display: inline-block;
+		content: '';
+		border-right: 1px dotted $c-deepblue;
+		height: 50%;
+	}
+
+	> span {
+		line-height: 1.2;
+	}
+
+	&.m01 {
+		border-bottom: 5px solid $c-N01;
+
+		&:before {
+			display: inline-block;
+			content: '';
+			border-right: 1px dotted $c-deepblue;
+			height: 50%;
+		}
+
+		&:hover, &.m01-h {
+			color: white;
+			background-color: $c-N01;
+			border-bottom: 5px solid rgba(239, 156, 147, 1.00);
+
+			&:before {
+				display: none;
+			}
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m02 {
+		border-bottom: 5px solid $c-N02;
+
+		&:hover, &.m02-h {
+			color: white;
+			background-color: $c-N02;
+			border-bottom: 5px solid rgba(31, 126, 208, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m03 {
+		border-bottom: 5px solid $c-N03;
+
+		&:hover, &.m03-h {
+			color: white;
+			background-color: $c-N03;
+			border-bottom: 5px solid rgba(70, 182, 116, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m04 {
+		border-bottom: 5px solid $c-N04;
+
+		&:hover, &.m04-h {
+			color: white;
+			background-color: $c-N04;
+			border-bottom: 5px solid rgba(79, 188, 232, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m05 {
+		border-bottom: 5px solid $c-N05;
+
+		&:hover, &.m05-h {
+			color: white;
+			background-color: $c-N05;
+			border-bottom: 5px solid rgba(248, 193, 77, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m06 {
+		border-bottom: 5px solid $c-N06;
+
+		&:hover, &.m06-h {
+			color: white;
+			background-color: $c-N06;
+			border-bottom: 5px solid rgba(238, 80, 86, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m07 {
+		border-bottom: 5px solid $c-News;
+
+		&:hover, &.m07-h {
+			color: white;
+			background-color: $c-News;
+			border-bottom: 5px solid rgba(136, 110, 165, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+
+.index-v-name {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 0;
+	color: black;
+	font-size: 1.2rem;
+	@include transition(all .3s);
+	text-align: left;
+	padding-top: 5px;
+
+	&:hover {
+		color: $c-main;
+	}
+
+	&:before {
+		display: inline-block;
+		content: attr(title);
+		color: $c-main;
+		cursor: auto;
+		margin-right: 10px;
+	}
+}
+
+

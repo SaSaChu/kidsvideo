@@ -1,2 +1,18 @@
 @import "Ginkgo";
 @import "color";
+
+.h60 {
+	height: 60px;
+}
+
+.border-dotted-e {
+	border-right: 1px dotted $c-deepblue;
+}
+
+.v-cover {
+	display: inline-block;
+	width: 100%;
+	max-width: 300px;
+	@include border-radius(8px);
+	overflow: hidden;
+}
