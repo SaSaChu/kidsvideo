@@ -4,4 +4,12 @@
 
 .border-dotted-e { border-right: 1px dotted #002e49; }
 
-.v-cover { display: inline-block; width: 100%; max-width: 300px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; overflow: hidden; }
+.tag-green, .tag-blue, .tag-red { display: inline-block; padding: 3px 5px; font-size: 1rem; color: white; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; z-index: 2; }
+
+.tag-green { background-color: #0fc642; }
+
+.tag-blue { background-color: #40a7ff; }
+
+.tag-red { background-color: #ff5656; }
+
+.mt-20 { margin-top: -3.5%; }

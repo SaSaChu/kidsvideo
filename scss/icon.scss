@@ -6,3 +6,28 @@
 //
 
 @import "compass/css3/font-face";
+
+@include font-face("icon", font-files(
+  "icomoon/fonts/icomoon.eot",
+  "icomoon/fonts/icomoon.woff",
+  "icomoon/fonts/icomoon.ttf",
+  "icomoon/fonts/icomoon.svg"));
+
+*[class^="icon-"]:before, *[class*=" icon-"]:before {
+  font-family: "icon";
+
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
+
+.icon-download:before { content: "\e90a"; }
+.icon-arrow-left-circle-fill:before { content: "\e904"; }
+.icon-arrow-left-circle:before { content: "\e905"; }
+.icon-arrow-right-circle-fill:before { content: "\e906"; }
+.icon-arrow-right-circle:before { content: "\e907"; }
+.icon-icon:before { content: "\e908"; }
+.icon-close:before { content: "\e901"; }
+.icon-menu:before { content: "\e902"; }
+.icon-search:before { content: "\e903"; }
