@@ -117,16 +117,34 @@ body {
     background-image: url(../img/n02-bg.png);
   }
 
-  .n2-cover {
+  &.search-tc {
+    background-image: url(../img/search-bg.png);
+  }
+
+  &.news-tc {
+    background-image: url(../img/news-bg.png);
+  }
+
+  .n2-cover, .search-cover, .news-cover {
     display: inline-block;
     width: 100%;
-    max-width: 95px; 
+    max-width: 95px;
+    height: 95px;
     @include border-radius(100px);
     overflow: hidden;
+    background-color: white;
   }
 
   .n2-cover {
     @include box-shadow(2px 2px 2px 1px rgba(7, 74, 124, 1.00));
+  }
+
+  .search-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(110, 0, 0, .5));
+  }
+
+  .news-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(88, 0, 110, .8));
   }
 }
 

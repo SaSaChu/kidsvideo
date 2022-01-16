@@ -17,7 +17,7 @@
   }
 }
 
-.n2-title {
+.n2-title, .search-title, .news-title {
   display: inline-block;
   width: 100%;
   font-size: 1.8rem;
@@ -28,3 +28,38 @@
 .n2-title {
   text-shadow: 2px 3px 2px rgba(7, 74, 124, 1.00);
 }
+
+.search-title {
+  text-shadow: 2px 3px 2px rgba(110, 0, 0, .5);
+}
+
+.news-title {
+  text-shadow: 2px 3px 2px rgba(88, 0, 110, .8);
+}
+
+.text-16 {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.text-24 {
+  display: inline-block;
+  margin-bottom: 0;
+  color: black;
+  font-size: 1.6rem;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.text-24-blue {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  color: $c-deepblue;
+  font-size: 1.6rem;
+  @include transition(all .3s);
+  text-align: left;
+  padding-left: 15px;
+}
+
