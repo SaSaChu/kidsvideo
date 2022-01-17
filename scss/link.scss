@@ -226,26 +226,6 @@ a {
 
 		&:before {
 			display: inline-block;
-			content: '\e905';
-			font-size: 2rem;
-			font-family: icon;
-		}
-
-		&:hover {
-			border: 0;
-			&:before {
-				display: inline-block;
-				content: '\e904';
-				font-size: 2rem;
-				font-family: icon;
-			}
-		}
-	}
-	&.ar {
-		line-height: normal;
-
-		&:before {
-			display: inline-block;
 			content: '\e907';
 			font-size: 2rem;
 			font-family: icon;
@@ -256,6 +236,26 @@ a {
 			&:before {
 				display: inline-block;
 				content: '\e906';
+				font-size: 2rem;
+				font-family: icon;
+			}
+		}
+	}
+	&.ar {
+		line-height: normal;
+
+		&:before {
+			display: inline-block;
+			content: '\e909';
+			font-size: 2rem;
+			font-family: icon;
+		}
+
+		&:hover {
+			border: 0;
+			&:before {
+				display: inline-block;
+				content: '\e908';
 				font-size: 2rem;
 				font-family: icon;
 			}
@@ -326,6 +326,37 @@ a {
 		}
 	}
 }
+
+.new-title-link {
+	display: inline-block;
+	width: 100%;
+	color: $c-deepblue;
+	font-size: 1.3rem;
+	@include transition(all .3s);
+	text-align: left;
+
+	&:hover {
+		text-decoration: underline;
+		color: $c-deepblue;
+	}
+
+	&:after {
+		display: inline-block;
+		content: '\e900';
+		font-family: icon;
+		float: right;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

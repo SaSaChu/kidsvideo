@@ -43,12 +43,51 @@ body {
   background-color: $c-main !important;
   border-top: 5px solid $c-brown !important;
 
-  &.v02 {
+  &.v01 {
+    &:hover, &.active {
+      color: $c-N01;
+      background-color: white !important;
+      border-top: 5px solid $c-N01 !important;
+    }
+  }
 
+  &.v02 {
     &:hover, &.active {
       color: $c-N02;
       background-color: white !important;
       border-top: 5px solid $c-N02 !important;
+    }
+  }
+
+  &.v03 {
+    &:hover, &.active {
+      color: $c-N03;
+      background-color: white !important;
+      border-top: 5px solid $c-N03 !important;
+    }
+  }
+
+  &.v04 {
+    &:hover, &.active {
+      color: $c-N04;
+      background-color: white !important;
+      border-top: 5px solid $c-N04 !important;
+    }
+  }
+
+  &.v05 {
+    &:hover, &.active {
+      color: $c-N05;
+      background-color: white !important;
+      border-top: 5px solid $c-N05 !important;
+    }
+  }
+
+  &.v06 {
+    &:hover, &.active {
+      color: $c-N06;
+      background-color: white !important;
+      border-top: 5px solid $c-N06 !important;
     }
   }
 
@@ -61,6 +100,25 @@ body {
   }
 }
 
+.new-titleBoxs {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.new-list {
+  display: inline-block;
+  width: calc(100% - 75px);
+  float: left;
+  padding-left: 20px;
+  border-bottom: 1px dotted $c-grey;
+
+  &.nl-d {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+}
 
 
 .logoboxs {
@@ -94,14 +152,44 @@ body {
 
   &:before {
     display: inline-block;
-    content: '\e908';
+    content: '\e90a';
     font-family: icon;
     font-size: 4rem;
   }
 
-  &.icon-blue {
+  &.icon-01 {
+    &:before {
+      color: $c-N01;
+    }
+  }
+
+  &.icon-02 {
     &:before {
       color: $c-N02;
+    }
+  }
+
+  &.icon-03 {
+    &:before {
+      color: $c-N03;
+    }
+  }
+
+  &.icon-04 {
+    &:before {
+      color: $c-N04;
+    }
+  }
+
+  &.icon-05 {
+    &:before {
+      color: $c-N05;
+    }
+  }
+
+  &.icon-06 {
+    &:before {
+      color: $c-N06;
     }
   }
 }
@@ -113,8 +201,28 @@ body {
   overflow: hidden;
   padding: 15px 20px;
 
+  &.n1-tc {
+    background-image: url(../img/n01-bg.png);
+  }
+
   &.n2-tc {
     background-image: url(../img/n02-bg.png);
+  }
+
+  &.n3-tc {
+    background-image: url(../img/n03-bg.png);
+  }
+
+  &.n4-tc {
+    background-image: url(../img/n04-bg.png);
+  }
+
+  &.n5-tc {
+    background-image: url(../img/n05-bg.png);
+  }
+
+  &.n6-tc {
+    background-image: url(../img/n06-bg.png);
   }
 
   &.search-tc {
@@ -125,7 +233,7 @@ body {
     background-image: url(../img/news-bg.png);
   }
 
-  .n2-cover, .search-cover, .news-cover {
+  .n1-cover, .n2-cover, .n3-cover, .n4-cover, .n5-cover, .n6-cover, .search-cover, .news-cover {
     display: inline-block;
     width: 100%;
     max-width: 95px;
@@ -135,8 +243,28 @@ body {
     background-color: white;
   }
 
+  .n1-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(154, 4, 4, 1.00));
+  }
+
   .n2-cover {
     @include box-shadow(2px 2px 2px 1px rgba(7, 74, 124, 1.00));
+  }
+
+  .n3-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(0, 78, 51, 1.00));
+  }
+
+  .n4-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(55, 93, 208, 1.00));
+  }
+
+  .n5-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(205, 151, 0, 1.00));
+  }
+
+  .n6-cover {
+    @include box-shadow(2px 2px 2px 1px rgba(154, 4, 4, 1.00));
   }
 
   .search-cover {
@@ -179,6 +307,7 @@ footer {
   border-top: 1px solid rgba(217, 217, 199, 1.00);
   padding: 20px 0;
   @include clearfix();
+  margin-top: 50px;
 
   img {
     width: 100%;

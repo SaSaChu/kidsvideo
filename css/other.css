@@ -2,6 +2,8 @@
 
 .h60 { height: 60px; }
 
+.border-dotted-b-grey { border-bottom: 1px dotted gainsboro; }
+
 .border-dotted-e { border-right: 1px dotted #002e49; }
 
 .tag-green, .tag-blue, .tag-red { display: inline-block; padding: 3px 5px; font-size: 1rem; color: white; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; z-index: 2; }
@@ -13,3 +15,11 @@
 .tag-red { background-color: #ff5656; }
 
 .mt-20 { margin-top: -3.5%; }
+
+.sort01, .sort02, .sort03 { display: inline-block; width: 75px; font-size: 1rem; padding: 5px 10px; color: white; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; text-align: center; }
+
+.sort01 { background-color: #937a55; }
+
+.sort02 { background-color: #379dff; }
+
+.sort03 { background-color: #ff4b4c; }

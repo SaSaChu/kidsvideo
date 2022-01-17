@@ -3,9 +3,19 @@
 .day-num { display: inline-block; position: absolute; top: 23%; left: 23%; color: white; font-size: 2rem; line-height: 20px; }
 .day-num:before { display: block; content: attr(title); font-size: 1.1rem; }
 
-.n2-title, .search-title, .news-title { display: inline-block; width: 100%; font-size: 1.8rem; color: white; padding-top: 8px; }
+.n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title { display: inline-block; width: 100%; font-size: 1.8rem; color: white; padding-top: 8px; }
+
+.n1-title { text-shadow: 2px 3px 2px #9a0404; }
 
 .n2-title { text-shadow: 2px 3px 2px #074a7c; }
+
+.n3-title { text-shadow: 2px 3px 2px #004e33; }
+
+.n4-title { text-shadow: 2px 3px 2px #375dd0; }
+
+.n5-title { text-shadow: 2px 3px 2px #cd9700; }
+
+.n6-title { text-shadow: 2px 3px 2px #9a0404; }
 
 .search-title { text-shadow: 2px 3px 2px rgba(110, 0, 0, 0.5); }
 
@@ -16,3 +26,10 @@
 .text-24 { display: inline-block; margin-bottom: 0; color: black; font-size: 1.6rem; text-align: left; padding-left: 15px; }
 
 .text-24-blue { display: inline-block; width: 100%; margin-bottom: 0; color: #002e49; font-size: 1.6rem; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: left; padding-left: 15px; }
+
+.text-13-blue { display: inline-block; font-size: 1rem; color: #002e49; }
+
+.new-title { display: inline-block; color: #002e49; font-size: 1.6rem; text-align: left; float: left; padding: 10px 0; }
+
+.new-day { display: inline-block; float: right; font-size: 1rem; color: black; line-height: 50px; }
+.new-day:before { display: inline-block; content: '\e90c'; font-family: icon; margin-right: 5px; }

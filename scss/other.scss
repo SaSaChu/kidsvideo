@@ -5,6 +5,10 @@
 	height: 60px;
 }
 
+.border-dotted-b-grey {
+  border-bottom: 1px dotted $c-grey;
+}
+
 .border-dotted-e {
 	border-right: 1px dotted $c-deepblue;
 }
@@ -33,5 +37,29 @@
 .mt-20 {
   margin-top: -3.5%;
 }
+
+.sort01, .sort02, .sort03 {
+  display: inline-block;
+  width: 75px;
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: white;
+  @include border-radius(3px);
+  text-align: center;
+}
+
+.sort01 {
+  background-color: rgba(147, 122, 85, 1.00);
+}
+.sort02 {
+  background-color: rgba(55, 157, 255, 1.00);
+}
+.sort03 {
+  background-color: rgba(255, 75, 76, 1.00);
+}
+
+
+
+
 
 

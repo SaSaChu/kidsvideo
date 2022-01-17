@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?46p2cw');
-  src:  url('fonts/icomoon.eot?46p2cw#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?46p2cw') format('truetype'),
-    url('fonts/icomoon.woff?46p2cw') format('woff'),
-    url('fonts/icomoon.svg?46p2cw#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?3p2l72');
+  src:  url('fonts/icomoon.eot?3p2l72#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3p2l72') format('truetype'),
+    url('fonts/icomoon.woff?3p2l72') format('woff'),
+    url('fonts/icomoon.svg?3p2l72#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,30 +25,57 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-download:before {
-  content: "\e90a";
-}
-.icon-arrow-left-circle-fill:before {
-  content: "\e904";
-}
-.icon-arrow-left-circle:before {
-  content: "\e905";
-}
-.icon-arrow-right-circle-fill:before {
-  content: "\e906";
-}
-.icon-arrow-right-circle:before {
-  content: "\e907";
-}
-.icon-icon:before {
-  content: "\e908";
-}
 .icon-close:before {
-  content: "\e901";
+  content: "\e903";
 }
 .icon-menu:before {
-  content: "\e902";
+  content: "\e904";
 }
 .icon-search:before {
-  content: "\e903";
+  content: "\e905";
+}
+.icon-arrow-left-circle-fill:before {
+  content: "\e906";
+}
+.icon-arrow-left-circle:before {
+  content: "\e907";
+}
+.icon-arrow-right-circle-fill:before {
+  content: "\e908";
+}
+.icon-arrow-right-circle:before {
+  content: "\e909";
+}
+.icon-icon:before {
+  content: "\e90a";
+}
+.icon-download:before {
+  content: "\e90b";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-arrow-right-thick:before {
+  content: "\e900";
+}
+.icon-arrow-left-thick:before {
+  content: "\e901";
+}
+.icon-error:before {
+  content: "\e902";
+}
+.icon-access_time:before {
+  content: "\e90c";
 }

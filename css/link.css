@@ -45,13 +45,13 @@ a { text-decoration: none; cursor: pointer; }
 .pagenumber { display: inline-block; width: 25px; height: 25px; color: #cba878; font-size: 1rem; margin-left: 8px; line-height: 25px; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
 .pagenumber:hover, .pagenumber.page-ac { border: 2px solid #cba878; color: #cba878; line-height: 22px; }
 .pagenumber.al { line-height: normal; }
-.pagenumber.al:before { display: inline-block; content: '\e905'; font-size: 2rem; font-family: icon; }
+.pagenumber.al:before { display: inline-block; content: '\e907'; font-size: 2rem; font-family: icon; }
 .pagenumber.al:hover { border: 0; }
-.pagenumber.al:hover:before { display: inline-block; content: '\e904'; font-size: 2rem; font-family: icon; }
+.pagenumber.al:hover:before { display: inline-block; content: '\e906'; font-size: 2rem; font-family: icon; }
 .pagenumber.ar { line-height: normal; }
-.pagenumber.ar:before { display: inline-block; content: '\e907'; font-size: 2rem; font-family: icon; }
+.pagenumber.ar:before { display: inline-block; content: '\e909'; font-size: 2rem; font-family: icon; }
 .pagenumber.ar:hover { border: 0; }
-.pagenumber.ar:hover:before { display: inline-block; content: '\e906'; font-size: 2rem; font-family: icon; }
+.pagenumber.ar:hover:before { display: inline-block; content: '\e908'; font-size: 2rem; font-family: icon; }
 
 .btn-more { display: inline-block; background-color: #cba878; font-size: 1.2rem; color: white; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; padding: 5px 15px 2px 15px; line-height: 27px; }
 .btn-more:hover { color: white; background-color: #9d8560; }
@@ -63,3 +63,7 @@ a { text-decoration: none; cursor: pointer; }
 .month-nav:before { display: inline-block; content: ''; width: 100%; max-width: 20px; height: 20px; background-image: url(../img/icon-month.png); margin-right: 8px; }
 .month-nav:hover, .month-nav.mon-ac { color: #cba878; }
 .month-nav:hover:before, .month-nav.mon-ac:before { display: inline-block; content: ''; width: 100%; max-width: 20px; height: 20px; background-image: url(../img/icon-month-h.png); }
+
+.new-title-link { display: inline-block; width: 100%; color: #002e49; font-size: 1.3rem; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: left; }
+.new-title-link:hover { text-decoration: underline; color: #002e49; }
+.new-title-link:after { display: inline-block; content: '\e900'; font-family: icon; float: right; }
