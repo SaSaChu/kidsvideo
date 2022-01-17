@@ -1,5 +1,7 @@
 *, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
+.m-alert { display: inline-block; width: 100%; color: #ff4c4c; font-size: 1.3rem; line-height: 1.5; text-align: left; padding-top: 20px; }
+
 .day-num { display: inline-block; position: absolute; top: 23%; left: 23%; color: white; font-size: 2rem; line-height: 20px; }
 .day-num:before { display: block; content: attr(title); font-size: 1.1rem; }
 
@@ -33,3 +35,14 @@
 
 .new-day { display: inline-block; float: right; font-size: 1rem; color: black; line-height: 50px; }
 .new-day:before { display: inline-block; content: '\e90c'; font-family: icon; margin-right: 5px; }
+
+.member-title { display: inline-block; width: 100%; font-weight: 500; color: white; font-size: 2rem; text-shadow: 2px 3px 2px #cd9700; padding: 30px 0; }
+
+.text-24-w { color: white; font-size: 1.8rem; }
+
+.text-18-w { color: white; font-size: 1.3rem; }
+
+.text-18 { display: inline-block; width: 100%; font-size: 1.3rem; text-align: left; line-height: 1.5; }
+
+.m-text-border { display: inline-block; width: 100%; border-bottom: 2px dotted gainsboro; padding: 20px 0; font-size: 1.3rem; text-align: left; line-height: 1.5; margin-bottom: 20px; }
+.m-text-border.m-big-title { color: #927a55; font-size: 1.8rem; }

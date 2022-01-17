@@ -2,9 +2,18 @@
 @import "color";
 
 
+a, button {
+	vertical-align: inherit !important;
+}
+
 a {
 	text-decoration: none;
 	cursor: pointer;
+}
+
+button {
+	border: 0;
+	outline: 0;
 }
 
 .menu {
@@ -289,9 +298,43 @@ a {
 	@include transition(all .3s);
 
 	&:hover {
+		color: white;
 		background-color: rgba(239, 131, 0, .8);
 	}
 }
+
+
+.btn-sign {
+	display: inline-block;
+	width: 100%;
+	max-width: 500px;
+	background-color: rgba(38, 159, 221, 1.00);
+	padding: 20px;
+	@include border-radius(5px);
+	@include transition(all .3s);
+	
+	&:hover, &:active {
+		background-color: rgba(38, 159, 221, .9);
+	}
+}
+
+
+.btn-br {
+	display: inline-block;
+	padding: 5px 15px;
+	color: white;
+	font-size: 1.2rem;
+	@include border-radius(30px);
+	border: 0;
+	background-color: rgba(193, 163, 120, 1.00);
+	@include transition(all .3s);
+
+	&:hover {
+		color: white;
+		background-color: rgba(193, 163, 120, .8);
+	}
+}
+
 
 .month-nav {
 	display: inline-block;

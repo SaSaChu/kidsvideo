@@ -1,6 +1,17 @@
 @import "Ginkgo";
 @import "color";
 
+
+.m-alert {
+  display: inline-block;
+  width: 100%;
+  color: rgba(255, 76, 76, 1.00);
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: left;
+  padding-top: 20px;
+}
+
 .day-num {
   display: inline-block;
   position: absolute;
@@ -112,6 +123,55 @@
     margin-right: 5px;
   }
 }
+
+.member-title {
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 2px 3px 2px rgba(205, 151, 0, 1.00);
+  padding: 30px 0;
+}
+
+.text-24-w {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.text-18-w {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.text-18 {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.m-text-border {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 2px dotted $c-grey;
+  padding: 20px 0;
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
+  &.m-big-title {
+    color: rgba(146, 122, 85, 1.00);
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
+
 
 
 

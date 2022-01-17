@@ -1,6 +1,10 @@
 *, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
+a, button { vertical-align: inherit !important; }
+
 a { text-decoration: none; cursor: pointer; }
+
+button { border: 0; outline: 0; }
 
 .menu { display: inline-block; width: 100%; font-size: 1.3rem; color: #002e49; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: center; }
 .menu:after { display: inline-block; content: ''; border-right: 1px dotted #002e49; height: 50%; }
@@ -57,7 +61,13 @@ a { text-decoration: none; cursor: pointer; }
 .btn-more:hover { color: white; background-color: #9d8560; }
 
 .btn-orange { display: inline-block; padding: 5px 15px; color: white; font-size: 1.2rem; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; border: 0; background-color: #ef8300; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
-.btn-orange:hover { background-color: rgba(239, 131, 0, 0.8); }
+.btn-orange:hover { color: white; background-color: rgba(239, 131, 0, 0.8); }
+
+.btn-sign { display: inline-block; width: 100%; max-width: 500px; background-color: #269fdd; padding: 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.btn-sign:hover, .btn-sign:active { background-color: rgba(38, 159, 221, 0.9); }
+
+.btn-br { display: inline-block; padding: 5px 15px; color: white; font-size: 1.2rem; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; border: 0; background-color: #c1a378; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.btn-br:hover { color: white; background-color: rgba(193, 163, 120, 0.8); }
 
 .month-nav { display: inline-block; width: 100%; color: gainsboro; font-size: 1.3rem; border-bottom: 2px dotted gainsboro; text-align: left; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; padding: 5px 0; }
 .month-nav:before { display: inline-block; content: ''; width: 100%; max-width: 20px; height: 20px; background-image: url(../img/icon-month.png); margin-right: 8px; }
