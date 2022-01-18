@@ -43,8 +43,10 @@
 .member-title { display: inline-block; width: 100%; font-weight: 500; color: white; font-size: 2rem; text-shadow: 2px 3px 2px #cd9700; padding: 30px 0; }
 
 .text-24-w { color: white; font-size: 1.8rem; }
+@media screen and (max-width: 449px) and (min-width: 0) { .text-24-w { font-size: 1.6rem; } }
 
 .text-18-w { color: white; font-size: 1.3rem; }
+@media screen and (max-width: 449px) and (min-width: 0) { .text-18-w { font-size: 1.2rem; } }
 
 .text-18 { display: inline-block; width: 100%; font-size: 1.28rem; text-align: left; line-height: 1.8; font-weight: 300; }
 

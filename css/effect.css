@@ -17,3 +17,5 @@ input[switch]:checked + label:after { right: 33px; background-color: white; }
 input[switch="bool"] + label { background-color: #ec536c; }
 input[switch="bool"] + label:before { color: #fff; }
 input[switch="bool"]:checked + label:before { color: #fff; }
+
+.bannerboxs { display: inline-block; width: 100%; height: 320px; background-color: rgba(255, 0, 0, 0.2); margin-top: 30px; }

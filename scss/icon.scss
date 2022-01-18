@@ -22,6 +22,9 @@
   font-variant: normal;
 }
 
+.icon-line:before { content: "\e90e"; }
+.icon-play-btn-fill:before { content: "\e90f"; }
+.icon-icon_app:before { content: "\e90d"; }
 .icon-close:before { content: "\e903"; }
 .icon-menu:before { content: "\e904"; }
 .icon-search:before { content: "\e905"; }
@@ -31,6 +34,8 @@
 .icon-arrow-right-circle:before { content: "\e909"; }
 .icon-icon:before { content: "\e90a"; }
 .icon-download:before { content: "\e90b"; }
+.icon-facebook:before { content: "\f09a"; }
+.icon-facebook-f:before { content: "\f09a"; }
 .icon-bars:before { content: "\f0c9"; }
 .icon-navicon:before { content: "\f0c9"; }
 .icon-reorder:before { content: "\f0c9"; }

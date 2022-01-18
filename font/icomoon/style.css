@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?3p2l72');
-  src:  url('fonts/icomoon.eot?3p2l72#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?3p2l72') format('truetype'),
-    url('fonts/icomoon.woff?3p2l72') format('woff'),
-    url('fonts/icomoon.svg?3p2l72#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ijrea7');
+  src:  url('fonts/icomoon.eot?ijrea7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ijrea7') format('truetype'),
+    url('fonts/icomoon.woff?ijrea7') format('woff'),
+    url('fonts/icomoon.svg?ijrea7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-line:before {
+  content: "\e90e";
+}
+.icon-play-btn-fill:before {
+  content: "\e90f";
+}
+.icon-icon_app:before {
+  content: "\e90d";
+}
 .icon-close:before {
   content: "\e903";
 }
@@ -51,6 +60,12 @@
 }
 .icon-download:before {
   content: "\e90b";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
 }
 .icon-bars:before {
   content: "\f0c9";

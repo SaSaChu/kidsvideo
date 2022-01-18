@@ -316,6 +316,10 @@ button {
 	&:hover, &:active {
 		background-color: rgba(38, 159, 221, .9);
 	}
+
+	@include range-width(0, 450px) {
+		padding: 20px 15px;
+	}
 }
 
 
@@ -418,9 +422,76 @@ button {
   }
 }
 
+.logoimg {
+	display: inline-block;
+	width: 100%;
+	max-width: 170px;
+	padding-top: 7px;
 
 
+	@include range-width(0, 450px) {
+		max-width: 130px;
+	}
+}
 
+.so-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	color: white;
+	@include border-radius(30px);
+
+	&:hover {
+		color: white;
+	}
+
+	&.fb {
+		background-color: $so-face;
+
+		&:before {
+			display: inline-block;
+			content: '\f09a';
+			font-family: icon;
+			font-size: 1.2rem;
+			line-height: 30px;
+		}
+	}
+
+	&.u2 {
+		background-color: $so-u2;
+
+		&:before {
+			display: inline-block;
+			content: '\e90f';
+			font-family: icon;
+			font-size: 1.2rem;
+			line-height: 30px;
+		}
+	}
+	&.line {
+		background-color: $so-line;
+
+		&:before {
+			display: inline-block;
+			content: '\e90e';
+			font-family: icon;
+			font-size: 1.5rem;
+			line-height: 30px;
+		}
+	}
+	&.app {
+		background-color: $so-app;
+
+		&:before {
+			display: inline-block;
+			content: '\e90d';
+			font-family: icon;
+			font-size: 1.5rem;
+			line-height: 30px;
+		}
+	}
+}
 
 
 

@@ -65,6 +65,7 @@ button { border: 0; outline: 0; }
 
 .btn-sign { display: inline-block; width: 100%; max-width: 500px; background-color: #269fdd; padding: 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .btn-sign:hover, .btn-sign:active { background-color: rgba(38, 159, 221, 0.9); }
+@media screen and (max-width: 449px) and (min-width: 0) { .btn-sign { padding: 20px 15px; } }
 
 .btn-br { display: inline-block; padding: 5px 15px; color: white; font-size: 1.2rem; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; border: 0; background-color: #c1a378; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .btn-br:hover { color: white; background-color: rgba(193, 163, 120, 0.8); }
@@ -83,3 +84,17 @@ button { border: 0; outline: 0; }
 
 .text-18-w-h { color: white; font-size: 1.3rem; }
 .text-18-w-h:hover { color: white; }
+
+.logoimg { display: inline-block; width: 100%; max-width: 170px; padding-top: 7px; }
+@media screen and (max-width: 449px) and (min-width: 0) { .logoimg { max-width: 130px; } }
+
+.so-icon { display: inline-block; width: 30px; height: 30px; margin-left: 10px; color: white; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
+.so-icon:hover { color: white; }
+.so-icon.fb { background-color: #4965a3; }
+.so-icon.fb:before { display: inline-block; content: '\f09a'; font-family: icon; font-size: 1.2rem; line-height: 30px; }
+.so-icon.u2 { background-color: #d3283a; }
+.so-icon.u2:before { display: inline-block; content: '\e90f'; font-family: icon; font-size: 1.2rem; line-height: 30px; }
+.so-icon.line { background-color: #3daa3d; }
+.so-icon.line:before { display: inline-block; content: '\e90e'; font-family: icon; font-size: 1.5rem; line-height: 30px; }
+.so-icon.app { background-color: #f6b915; }
+.so-icon.app:before { display: inline-block; content: '\e90d'; font-family: icon; font-size: 1.5rem; line-height: 30px; }

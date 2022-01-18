@@ -152,11 +152,19 @@
 .text-24-w {
   color: white;
   font-size: 1.8rem;
+
+  @include range-width(0, 450px) {
+    font-size: 1.6rem;
+  }
 }
 
 .text-18-w {
   color: white;
   font-size: 1.3rem;
+
+  @include range-width(0, 450px) {
+    font-size: 1.2rem;
+  }
 }
 
 .text-18 {

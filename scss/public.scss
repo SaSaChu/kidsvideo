@@ -100,6 +100,18 @@ body {
   }
 }
 
+.indexboxs {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  min-height: 475px;
+  margin:0;
+  padding:0;
+  background: white url(../img/header-bg.png) center center fixed no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
 .new-titleBoxs {
   display: inline-block;
   width: 100%;
@@ -125,7 +137,11 @@ body {
   width: 100%;
   background-image: url(../img/rainbow2.svg);
   background-repeat: repeat-x;
-  height: 105px;
+  height: 95px;
+
+  @include range-width(0, 450px) {
+    height: 80px;
+  }
 }
 
 .member-header-boxs {
@@ -152,6 +168,10 @@ body {
   padding: 20px 30px;
   margin-top: -50px;
   @include box-shadow(2px 2px 2px 1px rgba(29, 30, 33, .1));
+
+  @include range-width(0, 450px) {
+    padding: 20px;
+  }
 }
 
 
@@ -170,6 +190,17 @@ body {
   width: 100%;
   height: 230px;
   background-color: rgba(255, 0, 0, 0.2);
+}
+
+.pageboxs {
+  display: inline-block;
+  width: 100%;
+  min-height: 220px;
+  margin:0;
+  padding:0;
+  background: white url(../img/header-bg.png) center center fixed no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .centBoxs {
@@ -352,6 +383,10 @@ footer {
   margin-top: 50px;
   background-color: white;
 
+  @include range-width(0, 1200px) {
+    padding: 20px 15px;
+  }
+
   &.mf {
     margin-top: 0;
   }
@@ -376,6 +411,10 @@ footer {
     line-height: 1.5;
     color: $c-F-Text;
     text-align: left;
+
+    @include range-width(450px, 850px) {
+      width: 60%;
+    }
 
     @include range-width(0, 450px) {
       font-size: .9rem;
