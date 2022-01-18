@@ -2,14 +2,29 @@
 @import "color";
 
 
+.icon-check {
+  margin-top: 35px;
+  color: $c-grey;
+  font-size: 1.6rem;
+
+  &.ic-nmt {
+    margin-top: 0;
+  }
+
+  &.ic-g {
+    color: rgba(66, 186, 47, 1.00);
+  }
+}
+
+
 .m-alert {
   display: inline-block;
   width: 100%;
   color: rgba(255, 76, 76, 1.00);
-  font-size: 1.3rem;
+  font-size: 1.26rem;
   line-height: 1.5;
   text-align: left;
-  padding-top: 20px;
+  font-weight: 300;
 }
 
 .day-num {
@@ -147,9 +162,10 @@
 .text-18 {
   display: inline-block;
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1.28rem;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.8;
+  font-weight: 300;
 }
 
 .m-text-border {
@@ -166,10 +182,32 @@
     color: rgba(146, 122, 85, 1.00);
     font-size: 1.8rem;
   }
+
+  &.m-big-title-b {
+    color: $c-deepblue;
+    font-size: 1.6rem;
+    padding: 0 0 20px 0;
+  }
 }
 
+.account-title {
+  display: inline-block;
+  color: rgba(146, 122, 85, 1.00);
+  font-size: 1.3rem;
+  text-align: left;
+}
 
+.account-time {
+  display: inline-block;
+  color: $c-Orange;
+  font-size: 1.3rem;
+}
 
+.account-de {
+  display: inline-block;
+  font-size: 1.3rem;
+  text-align: left;
+}
 
 
 

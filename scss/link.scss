@@ -391,7 +391,32 @@ button {
 	}
 }
 
+.set-link {
+	display: inline-block;
+	cursor: pointer;
+  font-size: 1.3rem;
+  background-color: rgba(193, 163, 120, 1.00);
+  @include transition(all .3s);
+  -webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;  
 
+  &:hover {
+  	background-color: rgba(193, 163, 120, .8);
+  }
+}
+
+.text-18-w-h {
+  color: white;
+  font-size: 1.3rem;
+
+  &:hover {
+  	color: white;
+  }
+}
 
 
 

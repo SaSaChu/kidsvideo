@@ -139,11 +139,21 @@ body {
   display: inline-block;
   width: 100%;
   max-width: 500px;
-  background-color: white;
+ 
+  max-width: 0 atuo;
+}
+
+.Boxs500 {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+  max-width: 0 atuo;
   @include border-radius(5px);
   padding: 20px 30px;
   margin-top: -50px;
+  @include box-shadow(2px 2px 2px 1px rgba(29, 30, 33, .1));
 }
+
 
 .logoboxs {
   display: inline-block;
@@ -328,7 +338,7 @@ body {
 .scroll-boxs {
   display: inline-block;
   width: 100%;
-  max-height: 615px;
+  max-height: 550px;
   overflow-y: scroll;
 }
 
@@ -393,7 +403,12 @@ footer {
   left: 6% !important;
 }
 
-
+.set-box {
+  display: inline-block;
+  width: 100%;
+  @include border-radius(10px);
+  background-color: rgba(147, 122, 85, 1.00);
+}
 
 
 

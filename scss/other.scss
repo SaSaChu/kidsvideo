@@ -8,6 +8,10 @@
   color: rgba(146, 122, 85, 1.00);
   font-size: 1.2rem;
   text-align: left;
+
+  > i {
+    font-style: normal;
+  }
 }
 
 .form-control  {
@@ -17,6 +21,31 @@
   &::placeholder {
     color: rgba(149, 149, 149, 1.00);
   }
+}
+
+.form-check-label {
+  color: rgba(147, 122, 85, 1.00);
+  font-size: 1.2rem;
+  float: left;
+  padding-left: 10px;
+  line-height: 1.8;
+  text-align: left;
+
+  &.fc-l2 {
+    padding-left: 15px;
+    color: rgba(54, 54, 54, 1.00);
+    display: inline-block;
+    width: calc(100% - 15px);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
 }
 
 
@@ -31,6 +60,14 @@
 	height: 60px;
 }
 
+.m-t15 {
+  margin-top: -15px;
+}
+
+.set-space {
+  padding: 10px 15px;
+}
+
 .bg-member {
   display: inline-block;
   width: 100%;
@@ -41,6 +78,10 @@
 
 .border-dotted-b-grey {
   border-bottom: 1px dotted $c-grey;
+}
+
+.border-dotted-b-grey2 {
+  border-bottom: 2px dotted $c-grey;
 }
 
 .border-dotted-e {

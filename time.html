@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/text.css">
     <link rel="stylesheet" type="text/css" href="css/link.css">
     <link rel="stylesheet" type="text/css" href="css/other.css">
+    <link rel="stylesheet" type="text/css" href="css/effect.css">
 
     <script language="javascript" type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
     <script language="javascript" type="text/javascript" src="js/public.js"></script>
@@ -26,23 +27,57 @@
     <div class="member-header"></div>
 
     <div class='member-header-boxs'>
-      <p class="member-title">忘記密碼</p>
+      <p class="member-title">會員資料設定</p>
     </div>
 
     <div class="bg-member">
       <div class="memberBoxs">
         <div class="Boxs500 mb-5 bg-white">
-          <div class="m-text-border">
-            請輸入您的會員編號，系統會將您的密碼發送到您註冊時登記的手機；若是國外會員，系統會將您的密碼發送到您註冊時登記的Email。 
+          <div class="m-text-border m-big-title-b">使用時間提醒設定</div>
+
+          <div class="container-fluid">
+            <div class="row pb-4 border-dotted-b-grey2">
+              <div class="col-6"><span class="account-title px-0 float-start">使用時間提醒</span></div>
+              <div class="col-6">
+                <div class="float-end">
+                  <input type="checkbox" id="switch1" switch="none"/>
+                  <label for="switch1" data-off-label="Off" data-on-label="On"></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row my-4">
+              <div class="col-6"><span class="account-title px-0 float-start">使用多久提醒</span></div>
+              <div class="col-6"><span class="account-time px-0 float-end">00小時30分鐘</span></div>
+            </div>
+
+            <div class="row g-3 mb-4 align-items-center">
+              <div class="col-4">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>1</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                </select>
+              </div>
+              <div class="col-2 text-center">小時</div>
+              <div class="col-4">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>18</option>
+                  <option value="1">19</option>
+                  <option value="2">20</option>
+                  <option value="3">21</option>
+                </select>
+              </div>
+              <div class="col-2 text-center">分鐘</div>
+            </div>
           </div>
-          <div class="mb-4">
-            <label for="memberNumber" class="form-label">會員編號：</label>
-            <input type="" class="form-control" id="memberNumber" placeholder="會員編號就印在教材信封的名條上">
-          </div>
-          <div class="d-block my-4">
-            <a href="member.html" class="btn-orange float-start">發&ensp;送</a>
-            <a href="member.html" class="btn-br float-end">取&ensp;消</a>
-          </div>
+
+        </div>
+
+        <div class="d-block my-4">
+          <a href="account.html" class="btn-br float-start">取&ensp;消</a>
+          <a href="account.html" class="btn-orange float-end">確&ensp;定</a>
         </div>
       </div>
     </div>
