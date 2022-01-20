@@ -1,8 +1,8 @@
 $(function() {
 	var swiper = new Swiper(".bannerboxs", {
-		slidesPerView: 1,
+		slidesPerView: 3,
 		spaceBetween: 0,
-		slidesPerGroup: 1,
+		slidesPerGroup: 3,
 		loop: true,
 		loopFillGroupWithBlank: true,
 		autoplay: {
