@@ -1,10 +1,3 @@
-//
-// @author      OA Wu <comdan66@gmail.com>
-// @copyright   Copyright (c) 2015 - 2022, Ginkgo
-// @license     http://opensource.org/licenses/MIT  MIT License
-// @link        https://www.ioa.tw/
-//
-
 @import "compass/css3/font-face";
 
 @include font-face("icon", font-files(
@@ -44,4 +37,7 @@
 .icon-arrow-right-thick:before { content: "\e900"; }
 .icon-arrow-left-thick:before { content: "\e901"; }
 .icon-error:before { content: "\e902"; }
+.icon-playlist_play:before { content: "\e910"; }
 .icon-access_time:before { content: "\e90c"; }
+.icon-account_circle:before { content: "\e911"; }
+.icon-exit_to_app:before { content: "\e91a"; }

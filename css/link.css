@@ -1,4 +1,4 @@
-*, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
+*, *:after, *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
 a, button { vertical-align: inherit !important; }
 
@@ -62,6 +62,12 @@ button { border: 0; outline: 0; }
 
 .btn-orange { display: inline-block; padding: 5px 15px; color: white; font-size: 1.2rem; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; border: 0; background-color: #ef8300; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .btn-orange:hover { color: white; background-color: rgba(239, 131, 0, 0.8); }
+
+.icon-orange { display: inline-block; width: 40px; height: 40px; line-height: 40px; color: white; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; border: 0; background-color: #ef8300; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; margin-left: 10px; }
+.icon-orange.icon-exit_to_app { font-size: 2rem; }
+.icon-orange.icon-account_circle { font-size: 2rem; }
+.icon-orange.icon-playlist_play { font-size: 2.3rem; padding-left: 3px; }
+.icon-orange:hover { color: white; background-color: rgba(239, 131, 0, 0.8); }
 
 .btn-sign { display: inline-block; width: 100%; max-width: 500px; background-color: #269fdd; padding: 20px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .btn-sign:hover, .btn-sign:active { background-color: rgba(38, 159, 221, 0.9); }

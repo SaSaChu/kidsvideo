@@ -1,4 +1,4 @@
-*, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
+*, *:after, *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
 .icon-check { margin-top: 35px; color: gainsboro; font-size: 1.6rem; }
 .icon-check.ic-nmt { margin-top: 0; }
@@ -59,3 +59,5 @@
 .account-time { display: inline-block; color: #ef8300; font-size: 1.3rem; }
 
 .account-de { display: inline-block; font-size: 1.3rem; text-align: left; }
+
+.userName { display: inline-block; font-size: 1.3rem; color: #937a55; margin-bottom: 0; margin-top: 6px; margin-right: 15px; }

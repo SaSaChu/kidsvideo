@@ -1,5 +1,19 @@
 $(function() {
 
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  });
+
+  $('.m_header_r').click(function() {
+    $('.m_menu').addClass('menu_open');
+  });
+
+  $('.menuClose').click(function() {
+    $('.m_menu').removeClass('menu_open');
+  });
+
+
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 30,
@@ -16,4 +30,5 @@ $(function() {
     },
   });
 
+  
 });
