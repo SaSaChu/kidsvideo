@@ -156,6 +156,11 @@ button {
 	text-align: left;
 	padding-top: 5px;
 
+	@include range-width(0, 450px) {
+		padding-top: 0;
+		margin-bottom: 10px;
+	}
+
 	&.no-title {
 		&:before {
 			display: none;
@@ -463,6 +468,13 @@ button {
 	}
 }
 
+.logoimg-m {
+	display: inline-block;
+	width: 100%;
+	max-width: 120px;
+}
+
+
 .so-icon {
 	display: inline-block;
 	width: 30px;
@@ -470,9 +482,14 @@ button {
 	margin-left: 10px;
 	color: white;
 	@include border-radius(30px);
+	line-height: 30px;
 
 	&:hover {
 		color: white;
+	}
+
+	&.som {
+		margin-left: 5px;
 	}
 
 	&.fb {
@@ -483,7 +500,6 @@ button {
 			content: '\f09a';
 			font-family: icon;
 			font-size: 1.2rem;
-			line-height: 30px;
 		}
 	}
 
@@ -495,7 +511,6 @@ button {
 			content: '\e90f';
 			font-family: icon;
 			font-size: 1.2rem;
-			line-height: 30px;
 		}
 	}
 	&.line {
@@ -505,8 +520,8 @@ button {
 			display: inline-block;
 			content: '\e90e';
 			font-family: icon;
-			font-size: 1.5rem;
-			line-height: 30px;
+			font-size: 1.2rem;
+			// line-height: 30px;
 		}
 	}
 	&.app {
@@ -516,14 +531,33 @@ button {
 			display: inline-block;
 			content: '\e90d';
 			font-family: icon;
-			font-size: 1.5rem;
-			line-height: 30px;
+			font-size: 1.2rem;
+			// line-height: 30px;
 		}
 	}
 }
 
 
+.m-link {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 15px;
+	border-bottom: 2px dotted $c-grey;
+	line-height: 30px;
 
+	.m-text {
+		font-size: 2rem;
+		margin-right: 15px;
+		vertical-align: middle;
+	}
+
+	span {
+		display: inline-block;
+		font-size: 1.4rem;
+		color: $c-deepblue;
+		float: left;
+	}
+}
 
 
 

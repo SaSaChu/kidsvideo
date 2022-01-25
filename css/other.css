@@ -1,5 +1,21 @@
 *, *:after, *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
+.c-c01 { color: #ea7162; }
+
+.c-c02 { color: #0c6eb8; }
+
+.c-c03 { color: #0ca84b; }
+
+.c-c04 { color: #1bb1e7; }
+
+.c-c05 { color: #fcb814; }
+
+.c-c06 { color: #ee1c23; }
+
+.c-c07 { color: #745399; }
+
+.bg-l-pink { background-color: #fdf6ef; }
+
 .form-label { display: inline-block; width: 100%; color: #927a55; font-size: 1.2rem; text-align: left; }
 .form-label > i { font-style: normal; }
 
@@ -14,7 +30,7 @@
 .search-container { float: right; background-color: white; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; overflow: hidden; margin-right: 16px; }
 
 .s-text { outline: 0; padding: 6px 10px; font-size: 1.1rem; line-height: 1.5; border: none; }
-@media screen and (max-width: 449px) and (min-width: 0) { .s-text { width: 135px; } }
+@media screen and (max-width: 449px) and (min-width: 0) { .s-text { width: 135px; padding: 7px 15px; } }
 
 .search-container button { float: right; padding: 6px 10px; background-color: white; font-size: 1.1rem; line-height: 1.5; border: none; cursor: pointer; color: #937a55; }
 .search-container button:hover { color: rgba(147, 122, 85, 0.5); }
@@ -47,7 +63,7 @@
 .tag-red { background-color: #ff5656; }
 
 .mt-20 { margin-top: -3.5%; }
-@media screen and (max-width: 449px) and (min-width: 0) { .mt-20 { margin-top: -10.5%; } }
+@media screen and (max-width: 449px) and (min-width: 0) { .mt-20 { vertical-align: top; margin-top: -11%; } }
 
 .sort01, .sort02, .sort03 { display: inline-block; width: 75px; font-size: 1rem; padding: 5px 10px; color: white; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; text-align: center; }
 
@@ -65,4 +81,6 @@
 .m_menu .menuBox { display: inline-block; width: 80%; height: 100vh; background-color: white; float: right; position: relative; }
 .m_menu .menuClose { display: inline-block; width: 20%; float: left; margin: 10px 0; }
 
-.m_header { display: inline-block; width: 100%; padding: 15px 0; background-color: red; }
+.m_header { display: inline-block; width: 100%; }
+
+@media screen and (max-width: 449px) and (min-width: 0) { .title-img { display: inline-block; width: 100%; max-width: 80px; } }

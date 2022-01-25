@@ -1,5 +1,21 @@
 *, *:after, *:before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
 
+.c-c01 { color: #ea7162; }
+
+.c-c02 { color: #0c6eb8; }
+
+.c-c03 { color: #0ca84b; }
+
+.c-c04 { color: #1bb1e7; }
+
+.c-c05 { color: #fcb814; }
+
+.c-c06 { color: #ee1c23; }
+
+.c-c07 { color: #745399; }
+
+.bg-l-pink { background-color: #fdf6ef; }
+
 .swiper { width: 100%; height: 100%; }
 
 .swiper-slide { text-align: center; font-size: 18px; background: #fff; /* Center slide text vertically */ display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }

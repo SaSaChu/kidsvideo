@@ -1,6 +1,10 @@
 @import "Ginkgo";
 @import "color";
 
+.form-select {
+  color: $c-main !important;
+}
+
 
 .icon-check {
   margin-top: 35px;
@@ -49,6 +53,14 @@
   font-size: 1.8rem;
   color: white;
   padding-top: 8px;
+
+  @include range-width(0, 450px) {
+    width: auto;
+    float: left;
+    padding-left: 20px;
+    line-height: 75px;
+    padding-top: 0;
+  }
 }
 
 .n1-title {
@@ -68,7 +80,7 @@
 }
 
 .n5-title {
-  text-shadow: 2px 3px 2px rgba(205, 151, 0, 1.00);
+  text-shadow: 2px 3px 2px rgba(165, 135, 53, .7);
 }
 
 .n6-title {
@@ -87,6 +99,12 @@
   display: inline-block;
   font-size: 1.2rem;
   color: black;
+
+  @include range-width(0, 450px) {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 10px;
+  }
 }
 
 .text-24 {
@@ -226,6 +244,14 @@
   margin-right: 15px;
 }
 
+.userName-m {
+  display: inline-block;
+  width: 100%;
+  font-size: 1.5rem;
+  color: rgba(147, 122, 85, 1.00);
+  margin-bottom: 0;
+  text-align: left;
+}
 
 
 

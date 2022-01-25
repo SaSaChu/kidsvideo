@@ -49,6 +49,16 @@ body {
   background-color: $c-main !important;
   border-top: 5px solid $c-brown !important;
 
+  @include range-width(0, 450px) {
+    padding: 3px 60px !important;
+  }
+
+  &:first-child {
+    @include range-width(0, 450px) {
+      margin-right: 10px !important;
+    }
+  }
+
   &.v01 {
     &:hover, &.active {
       color: $c-N01;
@@ -218,6 +228,21 @@ body {
   background: white url(../img/header-bg.png) center center fixed no-repeat;
   -moz-background-size: cover;
   background-size: cover;
+
+  @include range-width(0, 450px) {
+    min-height: 290px;
+  }
+}
+
+.m-pageboxs {
+  display: inline-block;
+  width: 100%;
+  min-height: 115px;
+  margin:0;
+  padding:0;
+  background: white url(../img/header-bg.png) center center fixed no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .centBoxs {
@@ -283,6 +308,10 @@ body {
   overflow: hidden;
   padding: 15px 20px;
 
+  @include range-width(0, 450px) {
+    padding: 10px 15px;
+  }
+
   &.n1-tc {
     background-image: url(../img/n01-bg.png);
   }
@@ -323,6 +352,12 @@ body {
     @include border-radius(100px);
     overflow: hidden;
     background-color: white;
+
+    @include range-width(0, 450px) {
+      max-width: 75px;
+      height: 75px;
+      float: left;
+    }
   }
 
   .n1-cover {
@@ -342,7 +377,7 @@ body {
   }
 
   .n5-cover {
-    @include box-shadow(2px 2px 2px 1px rgba(205, 151, 0, 1.00));
+    @include box-shadow(2px 2px 2px 1px rgba(165, 135, 53, .7));
   }
 
   .n6-cover {
