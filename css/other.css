@@ -83,4 +83,4 @@
 
 .m_header { display: inline-block; width: 100%; }
 
-@media screen and (max-width: 449px) and (min-width: 0) { .title-img { display: inline-block; width: 100%; max-width: 80px; } }
+@media screen and (max-width: 919px) and (min-width: 0) { .title-img { display: inline-block; width: 100%; max-width: 80px; } }

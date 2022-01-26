@@ -28,10 +28,10 @@
     
   <div class="pageboxs">
     <div class="allBoxs">
-      <div class="container-fluid px-xl-0">
+      <div class="container-fluid px-xl-0 mt-1">
         <div class="row">
 
-          <div class="col-xl-4 d-flex align-items-end">
+          <div class="col-xl-4 col-4 d-flex align-items-end">
             <a href="video02.html">
               <img src="img/logo.png" class="logoimg float-start">
             </a>
@@ -43,14 +43,109 @@
             </div>
           </div>
 
-          <div class="col-xl-4 d-flex align-items-end">
-            
+          <div class="col-xl-5 col-7 d-flex align-items-center justify-content-center">
+            <div class="search-container mt-3 mt-xl-0">
+              <form>
+                <input type="text" class="s-text" placeholder="搜尋功能" name="search">
+                <button type="submit"><i class="icon-search"></i></button>
+              </form>
+            </div>
           </div>
 
-          <div class="col-xl-4 d-flex align-items-center justify-content-end">
-            <a href="login.html" class="btn-orange"><i class="bi bi-person"></i>&ensp;登入</a>
+          <!-- 手機Menu・觸發 -->
+          <div class="col-1 d-xl-none d-inline-block">
+            <div class='m_header_r icon-menu mt-3 mt-xl-0'></div>
+          </div>
+
+          <div class="col-12 d-inline-block d-xl-none mt-4 px-3">
+            <div class="title-cover n2-tc">
+              <div class="n2-cover">
+                <img src="img/n02-cover.png" class="title-img">
+              </div>
+              <span class="n2-title">學習版</span>
+            </div>
+          </div>
+
+          <div class="col-12 d-inline-block d-xl-none my-3 px-3">
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+              <option selected>2021年9月號</option>
+              <option value="1">2021年8月號</option>
+              <option value="2">2021年7月號</option>
+              <option value="3">2021年6月號</option>
+            </select>
+          </div>
+
+          <div class="col-xl-3 d-xl-flex align-items-center justify-content-end d-none">
+            <p class="userName">王小明，您好</p>
+            <a type="button" class="icon-orange icon-exit_to_app" data-bs-toggle="tooltip" data-bs-placement="bottom" title="登出"></a>
+            <a href="account.html" type="button" class="icon-orange icon-account_circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="我的帳戶"></a>
+            <a href="history.html" type="button" class="icon-orange icon-playlist_play" data-bs-toggle="tooltip" data-bs-placement="bottom" title="觀看歷史"></a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- 手機Menu・內容 -->
+    <div class='m_menu d-xl-none d-inline-block'>
+      <div class='menuClose'><img src="img/close.png" class="float-end"></div>
+      <div class='menuBox'>
+        <!-- menu header -->
+        <div class='m_header'>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 bg-l-pink py-3 d-flex align-items-center justify-content-between">
+                <a href="video02.html">
+                  <img src="img/logo.png" class="logoimg-m float-start">
+                </a>
+                <div>
+                  <a href="https://www.facebook.com/BenesseTaiwan/?fref=ts" target="_blank" class="so-icon som fb"></a>
+                  <a href="https://www.youtube.com/channel/UCnjadOj5qlKXsTAXPSwc67A/featured" target="_blank" class="so-icon som u2"></a>
+                  <a href="https://www.benesse.com.tw/html/line/index.html" target="_blank" class="so-icon som line"></a>
+                  <a href="https://www.benesse.com.tw/html/digit/app.html" target="_blank" class="so-icon som app" ></a>
+                </div>
+              </div>
+
+              <!-- 輸入框 -->
+              <div class="col-12 px-0">
+                <div class="m-pageboxs p-3">
+                  <p class="userName-m">王小明，您好</p>
+
+                  <div class="d-flex justify-content-between pt-4">
+                    <a href="" class="btn-orange">觀看紀錄</a>
+                    <a href="" class="btn-orange">我的帳戶</a>
+                    <a href="" class="btn-orange">登出</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- menu cent -->
+        <div class='ds ds100'>
+          <a href="video01.html" class="m-link">
+            <span><i class="icon-icon c-c01 m-text"></i>巧虎卡通</span>
+          </a>
+          <a href="video02.html" class="m-link">
+            <span><i class="icon-icon c-c02 m-text"></i>學習版 5-6歲</span>
+          </a>
+          <a href="video03.html" class="m-link">
+            <span><i class="icon-icon c-c03 m-text"></i>成長版 4-5歲</span>
+          </a>
+          <a href="video04.html" class="m-link">
+            <span><i class="icon-icon c-c04 m-text"></i>快樂版 3-4歲</span>
+          </a>
+          <a href="video05.html" class="m-link">
+            <span><i class="icon-icon c-c05 m-text"></i>幼幼版 2-3歲</span>
+          </a>
+          <a href="video06.html" class="m-link">
+            <span><i class="icon-icon c-c06 m-text"></i>寶寶版 1-2歲</span>
+          </a>
+          <a href="news.html" class="m-link">
+            <span><i class="icon-icon c-c07 m-text"></i>最新公告</span>
+          </a>
+        </div>
+
       </div>
     </div>
 
@@ -106,7 +201,7 @@
         <div class="container-fluid">
           <div class="row">
             <!-- 左邊 -->
-            <div class="col-2 ps-0 pe-5">
+            <div class="col-2 ps-0 pe-5 d-none d-xl-inline-block">
               <div class="title-cover n2-tc">
                 <div class="n2-cover">
                   <img src="img/n02-cover.png">
@@ -130,7 +225,7 @@
             </div>
 
             <!-- 右邊 -->
-            <div class="col-10 px-0">
+            <div class="col-xl-10 col-12 px-xl-0 px-3">
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <button class="nav-link v02 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#video" type="button" role="tab" aria-selected="true">影 片</button>

@@ -28,7 +28,7 @@
 .day-num:before { display: block; content: attr(title); font-size: 1.1rem; }
 
 .n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title { display: inline-block; width: 100%; font-size: 1.8rem; color: white; padding-top: 8px; }
-@media screen and (max-width: 449px) and (min-width: 0) { .n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title { width: auto; float: left; padding-left: 20px; line-height: 75px; padding-top: 0; } }
+@media screen and (max-width: 919px) and (min-width: 0) { .n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title { width: auto; float: left; padding-left: 20px; line-height: 75px; padding-top: 0; } }
 
 .n1-title { text-shadow: 2px 3px 2px #9a0404; }
 

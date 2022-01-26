@@ -115,7 +115,7 @@ button { border: 0; outline: 0; }
 
 .so-icon { display: inline-block; width: 30px; height: 30px; margin-left: 10px; color: white; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; line-height: 30px; }
 .so-icon:hover { color: white; }
-.so-icon.som { margin-left: 5px; }
+.so-icon.som { margin-left: 4px; }
 .so-icon.fb { background-color: #4965a3; }
 .so-icon.fb:before { display: inline-block; content: '\f09a'; font-family: icon; font-size: 1.2rem; }
 .so-icon.u2 { background-color: #d3283a; }

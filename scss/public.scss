@@ -26,7 +26,7 @@ body {
 // bootstrap
 .nav {
   @include range-width(0, 450px) {
-    justify-content: space-evenly !important;
+    justify-content: space-between !important;
   }
 }
 
@@ -50,7 +50,8 @@ body {
   border-top: 5px solid $c-brown !important;
 
   @include range-width(0, 450px) {
-    padding: 3px 60px !important;
+    width: 48%;
+    padding: 3px 55px !important;
   }
 
   &:first-child {
@@ -222,15 +223,16 @@ body {
 .pageboxs {
   display: inline-block;
   width: 100%;
-  min-height: 220px;
+  // min-height: 220px;
   margin:0;
-  padding:0;
+  padding:0 0 60px 0;
   background: white url(../img/header-bg.png) center center fixed no-repeat;
   -moz-background-size: cover;
   background-size: cover;
 
   @include range-width(0, 450px) {
-    min-height: 290px;
+    // min-height: 290px;
+    padding-bottom: 42px;
   }
 }
 
@@ -353,7 +355,7 @@ body {
     overflow: hidden;
     background-color: white;
 
-    @include range-width(0, 450px) {
+    @include range-width(0, 920px) {
       max-width: 75px;
       height: 75px;
       float: left;

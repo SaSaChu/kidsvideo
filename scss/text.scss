@@ -54,7 +54,7 @@
   color: white;
   padding-top: 8px;
 
-  @include range-width(0, 450px) {
+  @include range-width(0, 920px) {
     width: auto;
     float: left;
     padding-left: 20px;

@@ -249,7 +249,7 @@
 }
 
 .title-img {
-  @include range-width(0, 450px) {
+  @include range-width(0, 920px) {
     display: inline-block;
     width: 100%;
     max-width: 80px;
