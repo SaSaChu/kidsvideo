@@ -5,9 +5,9 @@ $(function() {
 		slidesPerGroup: 3,
 		loop: true,
 		loopFillGroupWithBlank: true,
-		autoplay: {
-			delay: 5000,
-		},
+		// autoplay: {
+		// 	delay: 5000,
+		// },
 		pagination: {
 		  el: ".swiper-pagination",
 		  clickable: true,
@@ -24,7 +24,7 @@ $(function() {
 			  slidesPerGroup: 1,
 			},
 
-			768: {
+			769: {
 				slidesPerView: 3,
 				spaceBetween: 0,
 				slidesPerGroup: 3,

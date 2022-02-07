@@ -41,7 +41,7 @@
         margin-top: 30px;
 
 		.swiper-slide {
-			@include range-width(450px) {
+			@include range-width(769px) {
 				&:nth-child(3n-2), &:nth-child(3n) {
 					height: 280px;
 					margin-top: 40px;
@@ -54,9 +54,8 @@
 				bottom: 0;
 				right: 0;
 				display: inline-block;
-                max-width: 568px;
-				width: 100%;
-				height: 100%;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
 				z-index: 1;
 			}
 	
