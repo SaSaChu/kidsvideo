@@ -61,7 +61,7 @@
 
         <div class="d-block my-4">
           <a href="account.html" class="btn-br float-start">取&ensp;消</a>
-          <a href="account.html" class="btn-orange float-end">確&ensp;定</a>
+          <a href="account.html" class="btn-orange float-end" data-bs-toggle="modal" data-bs-target="#btn01">確&ensp;定</a>
         </div>
       </div>
     </div>
@@ -77,6 +77,20 @@
         </div>
       </div>
     </footer>
+
+    <!-- 光箱 -->
+    <div class="modal" id="btn01" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="account-de my-5 text-center">密碼輸入錯誤！</br>請再檢查您輸入密碼是否正確。</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn-orange" data-bs-dismiss="modal">確定</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
   </body>

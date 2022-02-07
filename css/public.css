@@ -50,6 +50,8 @@ body::selection { color: white; background-color: #78baff; }
 
 .member-header-boxs { display: inline-block; width: 100%; background-image: url(../img/member-bg.png); height: 150px; }
 
+.mbp_9 { max-width: 900px !important; }
+
 .memberBoxs { display: inline-block; width: 100%; max-width: 500px; max-width: 0 atuo; }
 
 .Boxs500 { display: inline-block; width: 100%; max-width: 500px; max-width: 0 atuo; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 20px 30px; margin-top: -50px; -moz-box-shadow: 2px 2px 2px 1px rgba(29, 30, 33, 0.1); -webkit-box-shadow: 2px 2px 2px 1px rgba(29, 30, 33, 0.1); box-shadow: 2px 2px 2px 1px rgba(29, 30, 33, 0.1); }
