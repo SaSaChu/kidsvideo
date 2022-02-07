@@ -49,68 +49,90 @@
           <div class="m-text-border m-big-title">
             <span class="m-alert">＊號為必填欄位</span>
           </div>
+
+          <!-- 會員編號 -->
           <div class="row">
-            <div class="col-11 mb-4">
+            <div class="col-lg-11 col-10 mb-4">
               <label for="memberNumber" class="form-label">會員編號：<i class="text-danger">*</i></label>
               <input type="" class="form-control" id="memberNumber" placeholder="會員編號就印在教材信封的名條上">
             </div>
-            <div class="col-1 icon-check"><i class="bi bi-check-circle-fill"></i></div>
+            <div class="col-lg-1 col-2 icon-check"><i class="bi bi-check-circle-fill"></i></div>
           </div>
 
-          <div class="row g-3 mb-4 align-items-center">
+          <!-- 小朋友生日 -->
+          <div class="row">
             <div class="col-12">
               <label for="" class="form-label">小朋友生日：<i class="text-danger">*</i></label>
             </div>
-            <div class="col-3">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>2022</option>
-                <option value="1">2021</option>
-                <option value="2">2020</option>
-                <option value="3">2019</option>
-              </select>
+          </div>
+          <div class="row mb-4">
+            <div class="col-lg-11 col-10">
+              <div class="row g-3 mb-4">
+                <div class="col-lg-6 col-12">
+                  <div class="row align-items-center">
+                    <div class="col-10">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>2022</option>
+                        <option value="1">2021</option>
+                        <option value="2">2020</option>
+                        <option value="3">2019</option>
+                      </select>
+                    </div>
+                    <div class="col-2 text-center">年</div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <div class="row align-items-center">
+                    <div class="col-4">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                    <div class="col text-center">月</div>
+
+                    <div class="col-4">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>18</option>
+                        <option value="1">19</option>
+                        <option value="2">20</option>
+                        <option value="3">21</option>
+                      </select>
+                    </div>
+                    <div class="col text-center">日</div>
+                  </div> 
+                </div>
+              </div>
             </div>
-            <div class="col text-center">年</div>
-            <div class="col-2">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-              </select>
-            </div>
-            <div class="col text-center">月</div>
-            <div class="col-2">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>18</option>
-                <option value="1">19</option>
-                <option value="2">20</option>
-                <option value="3">21</option>
-              </select>
-            </div>
-            <div class="col text-center">日</div>
-            <div class="col-1 icon-check ic-nmt ic-g"><i class="bi bi-check-circle-fill"></i></div>
+            <div class="col-lg-1 col-2 icon-check ic-nmt ic-g"><i class="bi bi-check-circle-fill"></i></div>
           </div>
 
+          <!-- 登入密碼 -->
           <div class="row">
-            <div class="col-11 mb-4">
+            <div class="col-lg-11 col-10 mb-4">
               <label for="memberNumber" class="form-label">登入密碼：<i class="text-danger">*</i></label>
-              <input type="" class="form-control" id="memberNumber" placeholder="會員編號就印在教材信封的名條上">
+              <input type="" class="form-control" id="memberNumber">
             </div>
-            <div class="col-1 icon-check ic-g"><i class="bi bi-check-circle-fill"></i></div>
+            <div class="col-lg-1 col-2 icon-check"><i class="bi bi-check-circle-fill"></i></div>
           </div>
+          <!-- 再次輸入密碼 -->
           <div class="row">
-            <div class="col-11 mb-4">
+            <div class="col-lg-11 col-10 mb-4">
               <label for="memberNumber" class="form-label">再次輸入密碼：<i class="text-danger">*</i></label>
-              <input type="" class="form-control" id="memberNumber" placeholder="會員編號就印在教材信封的名條上">
+              <input type="" class="form-control" id="memberNumber">
             </div>
-            <div class="col-1 icon-check ic-g"><i class="bi bi-check-circle-fill"></i></div>
+            <div class="col-lg-1 col-2 icon-check"><i class="bi bi-check-circle-fill"></i></div>
           </div>
+          <!-- 手機號碼 -->
           <div class="row">
-            <div class="col-11 mb-4">
+            <div class="col-lg-11 col-10 mb-4">
               <label for="memberNumber" class="form-label">手機號碼：<i class="text-danger">*</i></label>
-              <input type="" class="form-control" id="memberNumber" placeholder="會員編號就印在教材信封的名條上">
+              <input type="" class="form-control" id="memberNumber">
             </div>
-            <div class="col-1 icon-check"><i class="bi bi-check-circle-fill"></i></div>
+            <div class="col-lg-1 col-2 icon-check"><i class="bi bi-check-circle-fill"></i></div>
             <div class="col-12">
               <div class="form-check mb-5">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -118,17 +140,20 @@
               </div>
             </div>
           </div>
+
+          <!-- E-Mail -->
           <div class="row">
-            <div class="col-11 mb-4">
+            <div class="col-lg-11 col-10 mb-4">
               <label for="memberNumber" class="form-label">E-Mail：<i class="text-danger">*</i></label>
-              <input type="" class="form-control" id="memberNumber" placeholder="會員編號就印在教材信封的名條上">
+              <input type="" class="form-control" id="memberNumber">
             </div>
-            <div class="col-1 icon-check"><i class="bi bi-check-circle-fill"></i></div>
+            <div class="col-lg-1 col-2 icon-check"><i class="bi bi-check-circle-fill"></i></div>
           </div>
+
         </div>
 
-        <div class="d-block my-4">
-          <a href="member.html" class="btn-br float-start">取&ensp;消</a>
+        <div class="d-flex my-4 justify-content-between">
+          <a href="login.html" class="btn-br float-start">取&ensp;消</a>
           <a href="video02.html" class="btn-orange float-end">送&ensp;出</a>
         </div>
       </div>

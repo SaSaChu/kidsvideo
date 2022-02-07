@@ -16,7 +16,7 @@
 
 .bg-l-pink { background-color: #fdf6ef; }
 
-.form-select { color: #cba878 !important; }
+.form-select { color: #cba878 !important; background-size: 9px 12px; padding: 0.6rem 1.8rem 0.6rem 0.75rem; }
 
 .icon-check { margin-top: 35px; color: gainsboro; font-size: 1.6rem; }
 .icon-check.ic-nmt { margin-top: 0; }
@@ -71,6 +71,7 @@
 .text-18 { display: inline-block; width: 100%; font-size: 1.28rem; text-align: left; line-height: 1.8; font-weight: 300; }
 
 .m-text-border { display: inline-block; width: 100%; border-bottom: 2px dotted gainsboro; padding: 20px 0; font-size: 1.3rem; text-align: left; line-height: 1.5; margin-bottom: 20px; }
+@media screen and (max-width: 449px) and (min-width: 0) { .m-text-border { padding: 0 0 20px 0; } }
 .m-text-border.m-big-title { color: #927a55; font-size: 1.8rem; }
 .m-text-border.m-big-title-b { color: #002e49; font-size: 1.6rem; padding: 0 0 20px 0; }
 
