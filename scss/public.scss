@@ -142,6 +142,13 @@ body {
   padding-left: 20px;
   border-bottom: 1px dotted $c-grey;
 
+  @include range-width(0, 450px) {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
   &.nl-d {
     display: block;
     width: 100%;
@@ -228,14 +235,15 @@ body {
   width: 100%;
   // min-height: 220px;
   margin:0;
-  padding:0 0 60px 0;
+  // padding:0 0 60px 0;
+  // padding:0 0 30px 0;
   background: white url(../img/header-bg.png) center center fixed no-repeat;
   -moz-background-size: cover;
   background-size: cover;
 
-  @include range-width(0, 450px) {
+  @include range-width(0, 770px) {
     // min-height: 290px;
-    padding-bottom: 42px;
+    padding-bottom: 20px;
   }
 }
 
@@ -313,7 +321,7 @@ body {
   overflow: hidden;
   padding: 15px 20px;
 
-  @include range-width(0, 450px) {
+  @include range-width(0, 1025px) {
     padding: 10px 15px;
   }
 

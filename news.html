@@ -22,13 +22,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+
   <div class="pageboxs">
     <div class="allBoxs">
       <div class="container-fluid px-xl-0 mt-1">
         <div class="row">
 
-          <div class="col-xl-4 col-4 d-flex align-items-end">
+          <div class="col-md-3 col-xl-4 col-sm-3 col-4 d-flex align-items-end">
             <a href="video02.html">
               <img src="img/logo.png" class="logoimg float-start">
             </a>
@@ -40,7 +40,8 @@
             </div>
           </div>
 
-          <div class="col-xl-5 col-7 d-flex align-items-center justify-content-center">
+          <!-- 搜尋欄 -->
+          <div class="col-xl-5 col-lg-5 col-7 d-flex align-items-center justify-content-center">
             <div class="search-container mt-3 mt-xl-0">
               <form>
                 <input type="text" class="s-text" placeholder="搜尋功能" name="search">
@@ -50,11 +51,12 @@
           </div>
 
           <!-- 手機Menu・觸發 -->
-          <div class="col-1 d-xl-none d-inline-block">
+          <div class="col-md-2 col-sm-2 col-1 d-lg-none d-inline-block d-flex align-items-center justify-content-end">
             <div class='m_header_r icon-menu mt-3 mt-xl-0'></div>
           </div>
 
-          <div class="col-12 d-inline-block d-xl-none mt-4 px-3">
+          <!-- 手機・標題 -->
+          <div class="col-12 d-inline-block d-lg-none mt-4 px-3">
             <div class="title-cover news-tc">
               <div class="news-cover">
                 <img src="img/news-cover.png" class="title-img">
@@ -63,7 +65,8 @@
             </div>
           </div>
 
-          <div class="col-12 d-inline-block d-xl-none my-3 px-3">
+          <!-- 手機・分類 -->
+          <div class="col-12 d-inline-block d-lg-none mt-4 px-3">
             <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
               <option selected>全部公告</option>
               <option value="1">網站公告</option>
@@ -72,7 +75,8 @@
             </select>
           </div>
 
-          <div class="col-xl-3 d-xl-flex align-items-center justify-content-end d-none">
+          <!-- 網頁平板：登入名字 -->
+          <div class="col-xl-3 col-lg-4 col-4 d-lg-flex align-items-center justify-content-end d-none">
             <p class="userName">王小明，您好</p>
             <a type="button" class="icon-orange icon-exit_to_app" data-bs-toggle="tooltip" data-bs-placement="bottom" title="登出"></a>
             <a href="account.html" type="button" class="icon-orange icon-account_circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="我的帳戶"></a>
@@ -83,7 +87,7 @@
     </div>
 
     <!-- 手機Menu・內容 -->
-    <div class='m_menu d-xl-none d-inline-block'>
+    <div class='m_menu d-lg-none d-inline-block'>
       <div class='menuClose'><img src="img/close.png" class="float-end"></div>
       <div class='menuBox'>
         <!-- menu header -->
@@ -147,7 +151,7 @@
     </div>
 
     <!-- 網頁menu -->
-    <div class="menuboxs d-none d-xl-inline-block mt-3">
+    <div class="menuboxs d-none d-lg-inline-block mt-3">
       <div class="allBoxs">
         <div class="container-fluid">
           <div class="row">
@@ -190,15 +194,19 @@
         </div>
       </div>
     </div>
+
+    <div class="h50_o">
+      <div class="w-100 h-50"></div>
+    </div>
   </div>
 
   
-  <div class="allBoxs">
+  <div class="allBoxs px-lg-3">
     <div class="centBoxs mt-20">
         <div class="container-fluid">
           <div class="row">
             <!-- 左邊 -->
-            <div class="col-2 ps-0 pe-5 d-none d-xl-inline-block">
+            <div class="col-2 ps-0 pe-5 d-none d-lg-inline-block">
               <div class="title-cover news-tc">
                 <div class="news-cover">
                   <img src="img/news-cover.png">
@@ -217,18 +225,20 @@
             </div>
 
             <!-- 右邊 -->
-            <div class="col-xl-10 col-12 px-xl-0 px-3">
+            <div class="col-lg-10 col-12 px-lg-0 px-3 pt-5">
               <!-- 內容 -->
-              <div class="row mt-xl-5 mt-4">
-                <div class="col-xl-6 col-12 d-flex align-items-center">
-                  <span class="text-16">顯示第 1 至 15 項資料，共 75 項</span>
-                </div>
-                <div class="col-xl-6 col-12 d-flex justify-content-end">
-                  <a href="" class="pagenumber al"></a>
-                  <a href="" class="pagenumber page-ac">1</a>
-                  <a href="" class="pagenumber">2</a>
-                  <a href="" class="pagenumber">3</a>
-                  <a href="" class="pagenumber ar"></a>
+              <div class="container-fluid px-0">
+                <div class="row my-4">
+                  <div class="col-12 col-xl-6  d-flex align-items-center">
+                    <span class="text-16">顯示第 1 至 15 項資料，共 75 項</span>
+                  </div>
+                  <div class="col-12 col-xl-6  d-flex justify-content-end">
+                    <a href="" class="pagenumber al"></a>
+                    <a href="" class="pagenumber page-ac">1</a>
+                    <a href="" class="pagenumber">2</a>
+                    <a href="" class="pagenumber">3</a>
+                    <a href="" class="pagenumber ar"></a>
+                  </div>
                 </div>
               </div>
 

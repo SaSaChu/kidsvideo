@@ -43,6 +43,7 @@ body::selection { color: white; background-color: #78baff; }
 .new-titleBoxs { display: inline-block; width: 100%; padding: 10px 0; }
 
 .new-list { display: inline-block; width: calc(100% - 75px); float: left; padding-left: 20px; border-bottom: 1px dotted gainsboro; }
+@media screen and (max-width: 449px) and (min-width: 0) { .new-list { width: 100%; padding-left: 0; padding-bottom: 10px; padding-top: 10px; } }
 .new-list.nl-d { display: block; width: 100%; padding-left: 0; }
 
 .member-header { display: inline-block; width: 100%; background-image: url(../img/rainbow2.svg); background-repeat: repeat-x; height: 95px; }
@@ -63,8 +64,8 @@ body::selection { color: white; background-color: #78baff; }
 
 .p-h-boxs { display: inline-block; width: 100%; min-height: 230px; margin: 0; padding: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
 
-.pageboxs { display: inline-block; width: 100%; margin: 0; padding: 0 0 60px 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
-@media screen and (max-width: 449px) and (min-width: 0) { .pageboxs { padding-bottom: 42px; } }
+.pageboxs { display: inline-block; width: 100%; margin: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
+@media screen and (max-width: 769px) and (min-width: 0) { .pageboxs { padding-bottom: 20px; } }
 
 .m-pageboxs { display: inline-block; width: 100%; min-height: 115px; margin: 0; padding: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
 
@@ -80,7 +81,7 @@ body::selection { color: white; background-color: #78baff; }
 .iconBoxs.icon-06:before { color: #ee1c23; }
 
 .title-cover { display: inline-block; width: 100%; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; overflow: hidden; padding: 15px 20px; }
-@media screen and (max-width: 449px) and (min-width: 0) { .title-cover { padding: 10px 15px; } }
+@media screen and (max-width: 1024px) and (min-width: 0) { .title-cover { padding: 10px 15px; } }
 .title-cover.n1-tc { background-image: url(../img/n01-bg.png); }
 .title-cover.n2-tc { background-image: url(../img/n02-bg.png); }
 .title-cover.n3-tc { background-image: url(../img/n03-bg.png); }

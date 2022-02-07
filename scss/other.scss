@@ -55,7 +55,10 @@
   background-color: white;
   @include border-radius(20px);
   overflow: hidden;
-  margin-right: 16px;
+  
+  @include range-width(0, 450px) {
+    margin-right: 16px;
+  }
 }
 
 .s-text {
@@ -110,12 +113,53 @@
 	height: 60px;
 }
 
+.h50 {
+  height: 60px;
+
+  @include range-width(770px, 830px) {
+    height: 35px;
+  }
+
+  @include range-width(0, 770px) {
+    height: 20px;
+  }
+}
+
+.h50_o {
+  height: 60px;
+
+  @include range-width(770px, 845px) {
+    height: 20px;
+  }
+
+  @include range-width(450px, 770px) {
+    height: 20px;
+  }
+
+  @include range-width(0, 450px) {
+    height: 0;
+  }
+}
+
 .mb-7 {
   margin-bottom: 7px;
 }
 
 .m-t15 {
   margin-top: -15px;
+}
+
+.mt-20 {
+  vertical-align: top;
+  margin-top: -42px;
+
+  @include range-width(450px, 770px) {
+    margin-top: -42px;
+  }
+
+  @include range-width(0, 450px) {
+    margin-top: -42px;
+  }
 }
 
 .set-space {
@@ -166,15 +210,6 @@
 
 .tag-red {
   background-color: $tag-red;
-}
-
-.mt-20 {
-  margin-top: -3.5%;
-
-  @include range-width(0, 450px) {
-    vertical-align: top;
-    margin-top: -11%;
-  }
 }
 
 .sort01, .sort02, .sort03 {

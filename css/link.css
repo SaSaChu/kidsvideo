@@ -81,6 +81,7 @@ button { border: 0; outline: 0; }
 .btn-orange:hover { color: white; background-color: rgba(239, 131, 0, 0.8); }
 
 .icon-orange { display: inline-block; width: 40px; height: 40px; line-height: 40px; color: white; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; border: 0; background-color: #ef8300; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; margin-left: 10px; }
+@media screen and (max-width: 1024px) and (min-width: 450px) { .icon-orange { width: 35px; height: 35px; line-height: 35px; } }
 .icon-orange.icon-exit_to_app { font-size: 2rem; }
 .icon-orange.icon-account_circle { font-size: 2rem; }
 .icon-orange.icon-playlist_play { font-size: 2.3rem; padding-left: 3px; }
@@ -114,6 +115,7 @@ button { border: 0; outline: 0; }
 .logoimg-m { display: inline-block; width: 100%; max-width: 120px; }
 
 .so-icon { display: inline-block; width: 30px; height: 30px; margin-left: 10px; color: white; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; line-height: 30px; }
+@media screen and (max-width: 1024px) and (min-width: 450px) { .so-icon { margin-left: 5px; } }
 .so-icon:hover { color: white; }
 .so-icon.som { margin-left: 4px; }
 .so-icon.fb { background-color: #4965a3; }

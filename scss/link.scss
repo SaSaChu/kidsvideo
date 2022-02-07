@@ -320,6 +320,12 @@ button {
 	@include transition(all .3s);
 	margin-left: 10px;
 
+	@include range-width(450px, 1025px) {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+
 	&.icon-exit_to_app {
 		font-size: 2rem;
 	}
@@ -483,6 +489,10 @@ button {
 	color: white;
 	@include border-radius(30px);
 	line-height: 30px;
+
+	@include range-width(450px, 1025px) {
+		margin-left: 5px;
+	}
 
 	&:hover {
 		color: white;
