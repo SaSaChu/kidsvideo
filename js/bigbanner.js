@@ -24,7 +24,7 @@ $(function() {
 			  slidesPerGroup: 1,
 			},
 
-			768: {
+			769: {
 				slidesPerView: 3,
 				spaceBetween: 0,
 				slidesPerGroup: 3,
