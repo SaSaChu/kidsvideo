@@ -198,6 +198,11 @@
   color: white;
   @include border-radius(2px);
   z-index: 2;
+
+  &.big-t-g {
+    padding: 3px 8px;
+    font-size: 1.2rem;
+  }
 }
 
 .tag-green {

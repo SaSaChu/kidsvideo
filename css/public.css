@@ -38,7 +38,7 @@ body::selection { color: white; background-color: #78baff; }
 .nav-link:first-child { margin-right: 20px; }
 .nav-link.active { border: 0; }
 
-.indexboxs { display: inline-block; width: 100%; height: 100%; min-height: 475px; margin: 0; padding: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
+.indexboxs { display: inline-block; width: 100%; height: 100%; min-height: 450px; margin: 0; padding: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
 
 .new-titleBoxs { display: inline-block; width: 100%; padding: 10px 0; }
 
@@ -57,6 +57,11 @@ body::selection { color: white; background-color: #78baff; }
 
 .Boxs500 { display: inline-block; width: 100%; max-width: 500px; max-width: 0 atuo; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding: 20px 30px; margin-top: -50px; -moz-box-shadow: 2px 2px 2px 1px rgba(29, 30, 33, 0.1); -webkit-box-shadow: 2px 2px 2px 1px rgba(29, 30, 33, 0.1); box-shadow: 2px 2px 2px 1px rgba(29, 30, 33, 0.1); }
 @media screen and (max-width: 449px) and (min-width: 0) { .Boxs500 { padding: 20px; } }
+
+.news { display: inline-block; width: 100%; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; background-color: white; overflow: hidden; }
+.news .s-news-l, .news .s-news-r { display: inline-block; padding: 15px; float: left; text-align: left; }
+.news .s-news-l { width: 130px; background-color: #937a55; }
+.news .s-news-r { width: calc(100% - 130px); }
 
 .logoboxs { display: inline-block; width: 100%; max-width: 1190px; height: 110px; background-color: rgba(255, 0, 0, 0.2); }
 
