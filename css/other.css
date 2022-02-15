@@ -25,6 +25,9 @@
 .form-check-label { width: 90%; color: #937a55; font-size: 1.2rem; float: left; padding-left: 10px; line-height: 1.8; text-align: left; }
 .form-check-label.fc-l2 { padding-left: 15px; color: #363636; display: inline-block; width: calc(100% - 15px); line-height: 1.5; margin-bottom: 20px; font-size: 1.1rem; font-weight: 300; }
 
+.form-select:focus { box-shadow: none; }
+.form-select.in-s { padding: 0.6rem 1.8rem 0.6rem 0; color: #002e49 !important; font-size: 1.6rem; border: 1px solid white; background-size: 2rem 2rem; background-image: url("\a       data:image/svg+xml,\a       <svg viewBox='0 0 16 16' fill='%23cba878' xmlns='http://www.w3.org/2000/svg'>\a         <path fill-rule='evenodd' d='M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z'/>\a       </svg>"); }
+
 .form-check-input { width: 20px; height: 20px; }
 
 .search-container { float: right; background-color: white; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; overflow: hidden; }
@@ -68,8 +71,8 @@
 
 .border-dotted-e { border-right: 1px dotted #002e49; }
 
-.tag-green, .tag-blue, .tag-red { display: inline-block; padding: 3px 5px; font-size: 1rem; color: white; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; z-index: 2; }
-.tag-green.big-t-g, .tag-blue.big-t-g, .tag-red.big-t-g { padding: 3px 8px; font-size: 1.2rem; }
+.tag-green, .tag-blue, .tag-red { display: inline-block; padding: 3px 5px; font-size: 1rem; color: white; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; z-index: 2; line-height: normal; }
+.tag-green.big-t-g, .tag-blue.big-t-g, .tag-red.big-t-g { padding: 3px 15px; font-size: 1.2rem; }
 
 .tag-green { background-color: #0fc642; }
 

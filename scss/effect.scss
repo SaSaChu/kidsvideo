@@ -40,6 +40,10 @@
         height: 320px;
         // margin-top: 30px;
 
+        @include range-width(0, 450px) {
+            height: 195px;
+        }
+
 		.swiper-slide {
 			@include range-width(769px) {
 				&:nth-child(3n-2), &:nth-child(3n) {

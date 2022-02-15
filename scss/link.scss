@@ -143,6 +143,34 @@ button {
 			}
 		}
 	}
+
+	&.m10 {
+		border-bottom: 5px solid $c-N10;
+
+		&:hover, &.m10-h {
+			color: white;
+			background-color: $c-N10;
+			border-bottom: 5px solid rgba(136, 110, 165, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	&.m11 {
+		border-bottom: 5px solid $c-N11;
+
+		&:hover, &.m11-h {
+			color: white;
+			background-color: $c-N11;
+			border-bottom: 5px solid rgba(136, 110, 165, 1.00);
+
+			&:after {
+				display: none;
+			}
+		}
+	}
 }
 
 

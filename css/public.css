@@ -38,7 +38,9 @@ body::selection { color: white; background-color: #78baff; }
 .nav-link:first-child { margin-right: 20px; }
 .nav-link.active { border: 0; }
 
-.indexboxs { display: inline-block; width: 100%; height: 100%; min-height: 450px; margin: 0; padding: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
+@media screen and (max-width: 449px) and (min-width: 0) { .m-index-boxs { display: inline-block; width: 100%; background-image: url(../img/rainbow.svg); background-repeat: repeat-x; } }
+
+.indexboxs { display: inline-block; width: 100%; height: 100%; margin: 0; padding: 0; background: white url(../img/header-bg.png) center center fixed no-repeat; -moz-background-size: cover; background-size: cover; }
 
 .new-titleBoxs { display: inline-block; width: 100%; padding: 10px 0; }
 

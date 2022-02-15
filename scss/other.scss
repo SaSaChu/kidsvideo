@@ -44,6 +44,27 @@
   }
 }
 
+.form-select {
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &.in-s {
+    padding: 0.6rem 1.8rem 0.6rem 0;
+    color: $c-deepblue !important;
+    font-size: 1.6rem;
+    border: 1px solid white;
+    background-size: 2rem 2rem;
+    background-image: url("
+      data:image/svg+xml,
+      <svg viewBox='0 0 16 16' fill='%23cba878' xmlns='http://www.w3.org/2000/svg'>
+        <path fill-rule='evenodd' d='M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 4a.5.5 0 0 0-.374.832l4 4.5a.5.5 0 0 0 .748 0l4-4.5A.5.5 0 0 0 12 6H4z'/>
+      </svg>");
+  }
+}
+
+
 .form-check-input {
   width: 20px;
   height: 20px;
@@ -198,9 +219,10 @@
   color: white;
   @include border-radius(2px);
   z-index: 2;
+  line-height: normal;
 
   &.big-t-g {
-    padding: 3px 8px;
+    padding: 3px 15px;
     font-size: 1.2rem;
   }
 }
