@@ -73,3 +73,8 @@ input[switch]:checked + label:after { right: 33px; background-color: white; }
 input[switch="bool"] + label { background-color: #ec536c; }
 input[switch="bool"] + label:before { color: #fff; }
 input[switch="bool"]:checked + label:before { color: #fff; }
+
+.mySwiper .swiper-button-next:after, .mySwiper .swiper-button-prev:after { font-size: 24px; }
+.mySwiper .banner-btn { width: 50px; height: 50px; border-radius: 50%; background-color: rgba(220, 194, 120, 0.8); color: #fff; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.mySwiper .banner-btn:hover { background-color: #dcc278; }
+@media screen and (max-width: 479px) and (min-width: 0) { .mySwiper .banner-btn { width: 60px; height: 60px; } }

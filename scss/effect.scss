@@ -283,3 +283,30 @@ input {
         }
     }
 }
+
+// 0308 v-detail prev, next arrow
+.mySwiper {
+    .swiper-button-next, .swiper-button-prev {
+        &:after {
+            font-size: 24px;
+        }
+    }
+    .banner-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(220, 194, 120, .8);
+        color: #fff;
+        @include transition(all .3s);
+    
+        &:hover {
+          background-color: rgba(220, 194, 120, 1);  
+        }
+    
+        @include range-width(0, 480px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
