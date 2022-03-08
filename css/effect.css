@@ -14,7 +14,34 @@
 
 .c-c07 { color: #745399; }
 
+.c-c10 { color: #f58ed7; }
+
+.c-c11 { color: #72256b; }
+
 .bg-l-pink { background-color: #fdf6ef; }
+
+.in-m-s { text-align: left; width: 100%; padding: 1rem 1.8rem; font-size: 1.6rem; background-color: transparent; }
+
+.type-c01, .type-c02, .type-c03, .type-c04, .type-c05, .type-c06, .type-c07, .type-c10, .type-c11 { display: inline-block; }
+.type-c01:before, .type-c02:before, .type-c03:before, .type-c04:before, .type-c05:before, .type-c06:before, .type-c07:before, .type-c10:before, .type-c11:before { display: inline-block; content: '\e90a'; font-family: icon; font-size: 1.6rem; margin-top: 3px; margin-right: 8px; }
+
+.type-c01 { color: #ea7162; }
+
+.type-c02 { color: #0c6eb8; }
+
+.type-c03 { color: #0ca84b; }
+
+.type-c04 { color: #1bb1e7; }
+
+.type-c05 { color: #fcb814; }
+
+.type-c06 { color: #ee1c23; }
+
+.type-c07 { color: #745399; }
+
+.type-c10 { color: #f58ed7; }
+
+.type-c11 { color: #72256b; }
 
 .swiper { width: 100%; height: 100%; }
 

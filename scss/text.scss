@@ -49,7 +49,7 @@
   }
 }
 
-.n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title {
+.n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title, .music-title {
   display: inline-block;
   width: 100%;
   font-size: 1.8rem;
@@ -95,6 +95,10 @@
 
 .news-title {
   text-shadow: 2px 3px 2px rgba(88, 0, 110, .8);
+}
+
+.music-title {
+  text-shadow: 2px 3px 2px rgba(165, 126, 175, .8);
 }
 
 .text-16 {

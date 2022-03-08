@@ -108,6 +108,22 @@ body {
     }
   }
 
+  &.v09 {
+    &:hover, &.active {
+      color: $c-News;
+      background-color: white !important;
+      border-top: 5px solid $c-News !important;
+    }
+  }
+
+  &.v10 {
+    &:hover, &.active {
+      color: $c-N10;
+      background-color: white !important;
+      border-top: 5px solid $c-N10 !important;
+    }
+  }
+
   &:first-child {
     margin-right: 20px;
   }
@@ -118,6 +134,7 @@ body {
 }
 
 .m-index-boxs {
+  display: none;
   @include range-width(0, 450px) {
     display: inline-block;
     width: 100%;
@@ -283,7 +300,7 @@ body {
 .m-pageboxs {
   display: inline-block;
   width: 100%;
-  min-height: 115px;
+  // min-height: 115px;
   margin:0;
   padding:0;
   background: white url(../img/header-bg.png) center center fixed no-repeat;
@@ -297,6 +314,44 @@ body {
   height: 100%;
   max-width: 1190px;
 }
+
+.cartoonbox {
+  display: inline-block;
+  font-size: 2rem;
+
+  &.cartoon-01 {
+    color: $c-N01;
+  }
+
+  &.cartoon-02 {
+    color: $c-N02;
+  }
+
+  &.cartoon-03 {
+    color: $c-N03;
+  }
+
+  &.cartoon-04 {
+    color: $c-N04;
+  }
+
+  &.cartoon-05 {
+    color: $c-N05;
+  }
+
+  &.cartoon-06 {
+    color: $c-N06;
+  }
+
+  &.cartoon-09 {
+    color: $c-N11;
+  }
+
+  &.cartoon-10 {
+    color: $c-N10;
+  }
+}
+
 
 .iconBoxs {
   display: inline-block;
@@ -345,6 +400,18 @@ body {
       color: $c-N06;
     }
   }
+
+  &.icon-09 {
+    &:before {
+      color: $c-News;
+    }
+  }
+
+  &.icon-10 {
+    &:before {
+      color: $c-N10;
+    }
+  }
 }
 
 .title-cover {
@@ -390,7 +457,15 @@ body {
     background-image: url(../img/news-bg.png);
   }
 
-  .n1-cover, .n2-cover, .n3-cover, .n4-cover, .n5-cover, .n6-cover, .search-cover, .news-cover {
+  &.video-tc {
+    background-image: url(../img/video-bg.png);
+  }
+
+  &.music-tc {
+    background-image: url(../img/music-bg.png);
+  }
+
+  .n1-cover, .n2-cover, .n3-cover, .n4-cover, .n5-cover, .n6-cover, .search-cover, .news-cover, .music-cover {
     display: inline-block;
     width: 100%;
     max-width: 95px;
@@ -436,6 +511,10 @@ body {
 
   .news-cover {
     @include box-shadow(2px 2px 2px 1px rgba(88, 0, 110, .8));
+  }
+
+  .music-cover {
+    @include box-shadow(2px 3px 2px rgba(165, 126, 175, .8));
   }
 }
 

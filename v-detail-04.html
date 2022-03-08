@@ -54,9 +54,10 @@
           </div>
 
           <!-- 手機Menu・觸發 -->
-          <div class="col-md-2 col-sm-2 col-1 d-lg-none d-inline-block d-flex align-items-center justify-content-end">
+          <a class="col-md-2 col-sm-2 col-1 d-lg-none d-inline-block d-flex align-items-center justify-content-end" 
+          data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasRight">
             <div class='m_header_r icon-menu mt-3 mt-xl-0'></div>
-          </div>
+          </a>
 
           <!-- 手機・標題 -->
           <div class="col-12 d-inline-block d-lg-none mt-4 px-3">
@@ -90,9 +91,11 @@
     </div>
 
     <!-- 手機Menu・內容 -->
-    <div class='m_menu d-lg-none d-inline-block'>
-      <div class='menuClose'><img src="img/close.png" class="float-end"></div>
-      <div class='menuBox'>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+          <img src="img/close.png" class="float-end">
+        </button>
+      <div class="offcanvas-body">
         <!-- menu header -->
         <div class='m_header'>
           <div class="container-fluid">
@@ -114,7 +117,7 @@
                 <div class="m-pageboxs p-3">
                   <p class="userName-m">王小明，您好</p>
 
-                  <div class="d-flex justify-content-between pt-4">
+                  <div class="d-flex justify-content-between pt-2">
                     <a href="" class="btn-orange">觀看紀錄</a>
                     <a href="" class="btn-orange">我的帳戶</a>
                     <a href="" class="btn-orange">登出</a>
@@ -145,11 +148,22 @@
           <a href="video06.html" class="m-link">
             <span><i class="icon-icon c-c06 m-text"></i>寶寶版 1-2歲</span>
           </a>
+          <a href="video07.html" class="m-link">
+            <span><i class="icon-icon c-c06 m-text"></i>啟蒙版</span>
+          </a>
+          <a href="video08.html" class="m-link">
+            <span><i class="icon-icon c-c06 m-text"></i>月齡版</span>
+          </a>
+          <a href="video09.html" class="m-link">
+            <span><i class="icon-icon c-c10 m-text"></i>影音+</span>
+          </a>
+          <a href="video10.html" class="m-link">
+            <span><i class="icon-icon c-c11 m-text"></i>專注聆聽</span>
+          </a>
           <a href="news.html" class="m-link">
             <span><i class="icon-icon c-c07 m-text"></i>最新公告</span>
           </a>
         </div>
-
       </div>
     </div>
 

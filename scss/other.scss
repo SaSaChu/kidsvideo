@@ -2,6 +2,28 @@
 @import "color";
 
 // boot
+.offcanvas-end {
+  // width: 85% !important;
+  border-left: 0;
+}
+
+.offcanvas {
+  flex-direction: row !important;
+  background-color: transparent;
+}
+
+.btn-close{
+  width: 28em;
+  height: 6em;
+  opacity: unset;
+  background: unset;
+}
+
+.offcanvas-body {
+  padding: 0 !important;
+  background-color: white;
+}
+
 .form-label {
   display: inline-block;
   width: 100%;
@@ -41,6 +63,37 @@
     margin-bottom: 20px;
     font-size: 1.1rem;
     font-weight: 300;
+  }
+}
+
+.dropdown-menu {
+  width: 100%;
+  min-width: unset;
+  font-size: 1.6rem;
+  border: 0;
+  padding: 0;
+  box-shadow: 0px 5px 4px -3px #DDDDDD;
+}
+
+.dropdown-toggle {
+
+  &:after {
+    display: inline-block;
+    // content: "\e90a";
+    content: "\F22A";
+    font-family: bootstrap-icons;
+    color: #cba878;
+    float: right;
+    border-top: 0;
+  }
+}
+
+.dropdown-item {
+  padding: 1rem 2rem;
+
+  &:hover {
+    color: $c-deepblue;
+    background-color: transparent;
   }
 }
 

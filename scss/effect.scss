@@ -1,6 +1,64 @@
 @import "Ginkgo";
 @import "color";
 
+.in-m-s {
+    text-align: left;
+    width: 100%;
+    padding: 1rem 1.8rem;
+    font-size: 1.6rem;
+    background-color: transparent;
+}
+
+.type-c01, .type-c02, .type-c03, .type-c04, .type-c05, .type-c06, .type-c07, .type-c10, .type-c11 {
+    display: inline-block;
+
+    &:before {
+        display: inline-block;
+        content: '\e90a';
+        font-family: icon;
+        font-size: 1.6rem;
+        margin-top: 3px;
+        margin-right: 8px;
+    }
+}
+
+.type-c01 {
+    color: $c-N01;
+}
+
+.type-c02 {
+    color: $c-N02;
+}
+
+.type-c03 {
+    color: $c-N03;
+}
+
+.type-c04 {
+    color: $c-N04;
+}
+
+.type-c05 {
+    color: $c-N05;
+}
+
+.type-c06 {
+    color: $c-N06;
+}
+
+.type-c07 {
+    color: $c-News;
+}
+
+.type-c10 {
+    color: $c-N10;
+}
+
+.type-c11 {
+    color: $c-N11;
+}
+
+
 .swiper {
     width: 100%;
     height: 100%;

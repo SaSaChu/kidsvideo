@@ -14,6 +14,10 @@
 
 .c-c07 { color: #745399; }
 
+.c-c10 { color: #f58ed7; }
+
+.c-c11 { color: #72256b; }
+
 .bg-l-pink { background-color: #fdf6ef; }
 
 .form-select { color: #cba878 !important; background-size: 9px 12px; padding: 0.6rem 1.8rem 0.6rem 0.75rem; }
@@ -27,8 +31,8 @@
 .day-num { display: inline-block; position: absolute; top: 23%; left: 23%; color: white; font-size: 2rem; line-height: 20px; }
 .day-num:before { display: block; content: attr(title); font-size: 1.1rem; }
 
-.n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title { display: inline-block; width: 100%; font-size: 1.8rem; color: white; padding-top: 8px; }
-@media screen and (max-width: 919px) and (min-width: 0) { .n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title { width: auto; float: left; padding-left: 20px; line-height: 75px; padding-top: 0; } }
+.n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title, .music-title { display: inline-block; width: 100%; font-size: 1.8rem; color: white; padding-top: 8px; }
+@media screen and (max-width: 919px) and (min-width: 0) { .n1-title, .n2-title, .n3-title, .n4-title, .n5-title, .n6-title, .search-title, .news-title, .music-title { width: auto; float: left; padding-left: 20px; line-height: 75px; padding-top: 0; } }
 
 .n1-title { text-shadow: 2px 3px 2px #9a0404; }
 
@@ -45,6 +49,8 @@
 .search-title { text-shadow: 2px 3px 2px rgba(110, 0, 0, 0.5); }
 
 .news-title { text-shadow: 2px 3px 2px rgba(88, 0, 110, 0.8); }
+
+.music-title { text-shadow: 2px 3px 2px rgba(165, 126, 175, 0.8); }
 
 .text-16 { display: inline-block; font-size: 1.2rem; color: black; }
 @media screen and (max-width: 449px) and (min-width: 0) { .text-16 { width: 100%; text-align: right; padding-bottom: 10px; } }

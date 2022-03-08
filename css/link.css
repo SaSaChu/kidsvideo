@@ -14,6 +14,10 @@
 
 .c-c07 { color: #745399; }
 
+.c-c10 { color: #f58ed7; }
+
+.c-c11 { color: #72256b; }
+
 .bg-l-pink { background-color: #fdf6ef; }
 
 a, button { vertical-align: inherit !important; }
@@ -23,6 +27,7 @@ a { text-decoration: none; cursor: pointer; }
 button { border: 0; outline: 0; }
 
 .menu { display: inline-block; width: 100%; font-size: 1.3rem; color: #002e49; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: center; }
+.menu.mr { color: red; }
 .menu:after { display: inline-block; content: ''; border-right: 1px dotted #002e49; height: 50%; }
 .menu > span { line-height: 1.2; }
 .menu.m01 { border-bottom: 5px solid #ea7162; }

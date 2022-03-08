@@ -24,6 +24,10 @@ button {
 	@include transition(all .3s);
 	text-align: center;
 
+	&.mr {
+		color: red;
+	}
+
 	&:after {
 		display: inline-block;
 		content: '';
