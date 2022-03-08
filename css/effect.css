@@ -51,7 +51,7 @@
 
 #bannerboxs.bannerboxs { display: inline-block; width: 100%; height: 320px; }
 @media screen and (max-width: 449px) and (min-width: 0) { #bannerboxs.bannerboxs { height: 195px; } }
-@media screen and (min-width: 769px) { #bannerboxs.bannerboxs .swiper-slide:nth-child(3n-2), #bannerboxs.bannerboxs .swiper-slide:nth-child(3n) { height: 280px; margin-top: 40px; } }
+@media screen and (min-width: 769px) { #bannerboxs.bannerboxs .swiper-slide:not(:nth-child(5n - 2)) { height: 280px; margin-top: 40px; } }
 #bannerboxs.bannerboxs .swiper-slide .bg { position: absolute; left: 0; top: 0; bottom: 0; right: 0; display: inline-block; background-position: center; background-size: cover; background-repeat: no-repeat; margin: 0; z-index: 1; }
 #bannerboxs.bannerboxs .swiper-slide .container { display: inline-block; width: 100%; height: 100%; position: relative; z-index: 2; text-align: center; padding: 0; }
 #bannerboxs.bannerboxs .swiper-slide .container .info { display: inline-block; width: 100%; position: absolute; bottom: 0; left: 0; }

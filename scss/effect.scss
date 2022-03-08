@@ -104,7 +104,7 @@
 
 		.swiper-slide {
 			@include range-width(769px) {
-				&:nth-child(3n-2), &:nth-child(3n) {
+				&:not(:nth-child(5n - 2)) {
 					height: 280px;
 					margin-top: 40px;
 				}
