@@ -103,8 +103,13 @@
         }
 
 		.swiper-slide {
+            &.swiper-slide-active {
+                .big-t-g {
+                    top: 15px !important;
+                }
+            }
 			@include range-width(769px) {
-				&:not(:nth-child(5n - 2)) {
+				&:not(.swiper-slide-active) {
 					height: 280px;
 					margin-top: 40px;
 				}
