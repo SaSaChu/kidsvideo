@@ -28,13 +28,10 @@ button { border: 0; outline: 0; }
 
 .menu { display: inline-block; width: 100%; font-size: 1.3rem; color: #002e49; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: center; }
 .menu.mr { color: red; }
-.menu:after { display: inline-block; content: ''; border-right: 1px dotted #002e49; height: 50%; }
 .menu > span { line-height: 1.2; }
+.menu.dott:after { display: inline-block; content: ''; border-right: 1px dotted #002e49; height: 50%; }
 .menu.m01 { border-bottom: 5px solid #ea7162; }
-.menu.m01:before { display: inline-block; content: ''; border-right: 1px dotted #002e49; height: 50%; }
 .menu.m01:hover, .menu.m01.m01-h { color: white; background-color: #ea7162; border-bottom: 5px solid #ef9c93; }
-.menu.m01:hover:before, .menu.m01.m01-h:before { display: none; }
-.menu.m01:hover:after, .menu.m01.m01-h:after { display: none; }
 .menu.m02 { border-bottom: 5px solid #0c6eb8; }
 .menu.m02:hover, .menu.m02.m02-h { color: white; background-color: #0c6eb8; border-bottom: 5px solid #1f7ed0; }
 .menu.m02:hover:after, .menu.m02.m02-h:after { display: none; }
@@ -54,10 +51,10 @@ button { border: 0; outline: 0; }
 .menu.m07:hover, .menu.m07.m07-h { color: white; background-color: #745399; border-bottom: 5px solid #886ea5; }
 .menu.m07:hover:after, .menu.m07.m07-h:after { display: none; }
 .menu.m10 { border-bottom: 5px solid #f58ed7; }
-.menu.m10:hover, .menu.m10.m10-h { color: white; background-color: #f58ed7; border-bottom: 5px solid #886ea5; }
+.menu.m10:hover, .menu.m10.m10-h { color: white; background-color: #f58ed7; border-bottom: 5px solid #f3bbe1; }
 .menu.m10:hover:after, .menu.m10.m10-h:after { display: none; }
 .menu.m11 { border-bottom: 5px solid #72256b; }
-.menu.m11:hover, .menu.m11.m11-h { color: white; background-color: #72256b; border-bottom: 5px solid #886ea5; }
+.menu.m11:hover, .menu.m11.m11-h { color: white; background-color: #72256b; border-bottom: 5px solid #724674; }
 .menu.m11:hover:after, .menu.m11.m11-h:after { display: none; }
 
 .index-v-name { display: inline-block; width: 100%; margin-bottom: 0; color: black; font-size: 1.2rem; -moz-transition: all 0.3s; -o-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: left; padding-top: 5px; }

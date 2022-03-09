@@ -28,39 +28,26 @@ button {
 		color: red;
 	}
 
-	&:after {
-		display: inline-block;
-		content: '';
-		border-right: 1px dotted $c-deepblue;
-		height: 50%;
-	}
-
 	> span {
 		line-height: 1.2;
 	}
 
-	&.m01 {
-		border-bottom: 5px solid $c-N01;
-
-		&:before {
+	&.dott {
+		&:after {
 			display: inline-block;
 			content: '';
 			border-right: 1px dotted $c-deepblue;
 			height: 50%;
 		}
+	}
+
+	&.m01 {
+		border-bottom: 5px solid $c-N01;
 
 		&:hover, &.m01-h {
 			color: white;
 			background-color: $c-N01;
 			border-bottom: 5px solid rgba(239, 156, 147, 1.00);
-
-			&:before {
-				display: none;
-			}
-
-			&:after {
-				display: none;
-			}
 		}
 	}
 
@@ -154,7 +141,7 @@ button {
 		&:hover, &.m10-h {
 			color: white;
 			background-color: $c-N10;
-			border-bottom: 5px solid rgba(136, 110, 165, 1.00);
+			border-bottom: 5px solid rgba(243, 187, 225, 1.00);
 
 			&:after {
 				display: none;
@@ -168,7 +155,7 @@ button {
 		&:hover, &.m11-h {
 			color: white;
 			background-color: $c-N11;
-			border-bottom: 5px solid rgba(136, 110, 165, 1.00);
+			border-bottom: 5px solid rgba(114, 70, 116, 1.00);
 
 			&:after {
 				display: none;
