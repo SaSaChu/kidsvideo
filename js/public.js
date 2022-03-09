@@ -13,15 +13,28 @@ $(function() {
     $('.m_menu').removeClass('menu_open');
   });
 
-  // $('.menu').click(function() {
-  //   $('.m01-h, .m02-h, .m03-h, .m04-h, .m05-h, .m06-h, .m07-h, .m09-h, .m10-h, .m11-h,').removeClass('dott');
-  // });
+  
 
-  $('.menu').click(function() {
-    $(this).prev('.col').each (function () {
-      var $that = $(this);
-      $(this).removeClass ('dott');
-    });
+  $('.menuboxs .menu').each(function() {
+    let isActive = $(this).is("[class*='-h']")
+    $(this).mouseenter(function() {
+      $(this).removeClass ('dott').prev().removeClass ('dott');
+    })
+    $(this).mouseleave(function() {
+      if (!isActive) {
+        $(this).addClass ('dott').prev().addClass ('dott');
+      }
+      if ($(this).prev().is("[class*='-h']")) {
+        $(this).prev().removeClass ('dott')
+      }
+      if ($(this).next().is("[class*='-h']")) {
+        $(this).removeClass ('dott')
+      }
+    })
+
+    if (isActive) {
+      $(this).removeClass ('dott').prev().removeClass ('dott');
+    }
   });
 
 
