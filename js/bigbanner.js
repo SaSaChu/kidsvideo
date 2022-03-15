@@ -2,19 +2,18 @@ $(function() {
 	var swiper = new Swiper(".bannerboxs", {
 		slidesPerView: 5,
 		spaceBetween: 0,
-		slidesPerGroup: 5,
+		slidesPerGroup: 1,
 		loop: true,
-		allowTouchMove: false,
-		loopFillGroupWithBlank: true,
+		// allowTouchMove: false,
 		centeredSlides: true,
 		autoplay: {
 			delay: 5000,
 			disableOnInteraction: false,
 		},
-		pagination: {
-		  el: ".swiper-pagination",
-		  clickable: true,
-		},
+		// pagination: {
+		//   el: ".swiper-pagination",
+		//   clickable: true,
+		// },
 		navigation: {
 		  nextEl: ".swiper-button-next",
 		  prevEl: ".swiper-button-prev",
@@ -35,5 +34,9 @@ $(function() {
 		},
 
 	});
+
+	$('.swiper-slide-prev').change(function(){
+		alert(1)
+	})
   });
   
