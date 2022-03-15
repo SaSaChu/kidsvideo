@@ -147,9 +147,16 @@
 				.info {
                     display: inline-block;
                     width: 100%;
+                    height: 100%;
                     position: absolute;
                     bottom: 0;
                     left: 0;
+
+                    > a {
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                    }
 
 					header {
 						display: inline-block;
@@ -160,6 +167,9 @@
 						@include text-shadow(1px 1px 3px rgba(0, 0, 0, 0.2));
 					}
 					p {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
                         font-size: 1.2rem;
 						width: 100%;
 						display: inline-block;
