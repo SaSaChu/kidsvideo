@@ -122,18 +122,18 @@ button { border: 0; outline: 0; }
 
 .logoimg-m { display: inline-block; width: 100%; max-width: 120px; }
 
-.so-icon { display: inline-block; width: 30px; height: 30px; margin-left: 10px; color: white; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; line-height: 30px; }
+.so-icon { display: inline-block; margin-left: 10px; color: white; }
 @media screen and (max-width: 1024px) and (min-width: 450px) { .so-icon { margin-left: 5px; } }
 .so-icon:hover { color: white; }
 .so-icon.som { margin-left: 4px; }
-.so-icon.fb { background-color: #4965a3; }
-.so-icon.fb:before { display: inline-block; content: '\f09a'; font-family: icon; font-size: 1.2rem; }
-.so-icon.u2 { background-color: #d3283a; }
-.so-icon.u2:before { display: inline-block; content: '\e90f'; font-family: icon; font-size: 1.2rem; }
-.so-icon.line { background-color: #3daa3d; }
-.so-icon.line:before { display: inline-block; content: '\e90e'; font-family: icon; font-size: 1.2rem; }
-.so-icon.app { background-color: #f6b915; }
-.so-icon.app:before { display: inline-block; content: '\e90d'; font-family: icon; font-size: 1.2rem; }
+.so-icon.fb { color: #2fa1ae; }
+.so-icon.fb:before { display: inline-block; content: '\e912'; font-family: icon; font-size: 2rem; }
+.so-icon.u2 { color: #dc4e3f; }
+.so-icon.u2:before { display: inline-block; content: '\e914'; font-family: icon; font-size: 2rem; }
+.so-icon.line { color: #a4c737; }
+.so-icon.line:before { display: inline-block; content: '\e913'; font-family: icon; font-size: 2rem; }
+.so-icon.app { color: #e99f3c; }
+.so-icon.app:before { display: inline-block; content: '\e90d'; font-family: icon; font-size: 2rem; }
 
 .m-link { display: inline-block; width: 100%; padding: 10px 15px; border-bottom: 2px dotted gainsboro; line-height: 30px; }
 .m-link .m-text { font-size: 2rem; margin-right: 15px; vertical-align: middle; }

@@ -502,12 +502,12 @@ button {
 
 .so-icon {
 	display: inline-block;
-	width: 30px;
-	height: 30px;
+	// width: 30px;
+	// height: 30px;
 	margin-left: 10px;
 	color: white;
-	@include border-radius(30px);
-	line-height: 30px;
+	// @include border-radius(30px);
+	// line-height: 30px;
 
 	@include range-width(450px, 1025px) {
 		margin-left: 5px;
@@ -522,45 +522,45 @@ button {
 	}
 
 	&.fb {
-		background-color: $so-face;
+		color: rgba(47, 161, 174, 1.00);
 
 		&:before {
 			display: inline-block;
-			content: '\f09a';
+			content: '\e912';
 			font-family: icon;
-			font-size: 1.2rem;
+			font-size: 2rem;
 		}
 	}
 
 	&.u2 {
-		background-color: $so-u2;
+		color: rgba(220, 78, 63, 1.00);
 
 		&:before {
 			display: inline-block;
-			content: '\e90f';
+			content: '\e914';
 			font-family: icon;
-			font-size: 1.2rem;
+			font-size: 2rem;
 		}
 	}
 	&.line {
-		background-color: $so-line;
+		color: rgba(164, 199, 55, 1.00);
 
 		&:before {
 			display: inline-block;
-			content: '\e90e';
+			content: '\e913';
 			font-family: icon;
-			font-size: 1.2rem;
+			font-size: 2rem;
 			// line-height: 30px;
 		}
 	}
 	&.app {
-		background-color: $so-app;
+		color: rgba(233, 159, 60, 1.00);
 
 		&:before {
 			display: inline-block;
 			content: '\e90d';
 			font-family: icon;
-			font-size: 1.2rem;
+			font-size: 2rem;
 			// line-height: 30px;
 		}
 	}

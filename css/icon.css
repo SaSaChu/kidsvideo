@@ -1,9 +1,15 @@
-@font-face { font-family: "icon"; src: url('../font/icomoon/fonts/icomoon.eot?1642848956') format('embedded-opentype'), url('../font/icomoon/fonts/icomoon.woff?1642848956') format('woff'), url('../font/icomoon/fonts/icomoon.ttf?1642848956') format('truetype'), url('../font/icomoon/fonts/icomoon.svg?1642848956') format('svg'); }
+@font-face { font-family: "icon"; src: url('../font/icomoon/fonts/icomoon.eot?1647324868') format('embedded-opentype'), url('../font/icomoon/fonts/icomoon.woff?1647324868') format('woff'), url('../font/icomoon/fonts/icomoon.ttf?1647324868') format('truetype'), url('../font/icomoon/fonts/icomoon.svg?1647324868') format('svg'); }
 *[class^="icon-"]:before, *[class*=" icon-"]:before { font-family: "icon"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; }
 
 .icon-line:before { content: "\e90e"; }
 
 .icon-play-btn-fill:before { content: "\e90f"; }
+
+.icon-icon_fb:before { content: "\e912"; }
+
+.icon-icon_line:before { content: "\e913"; }
+
+.icon-icon_u2:before { content: "\e914"; }
 
 .icon-icon_app:before { content: "\e90d"; }
 

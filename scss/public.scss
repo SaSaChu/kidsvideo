@@ -61,6 +61,11 @@ body {
   }
 
   &.v01 {
+    color: white;
+    background-color: $c-N01 !important;
+    border-top: 5px solid white !important;
+    
+
     &:hover, &.active {
       color: $c-N01;
       background-color: white !important;
@@ -69,6 +74,10 @@ body {
   }
 
   &.v02 {
+    color: white;
+    background-color: $c-N02 !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-N02;
       background-color: white !important;
@@ -77,6 +86,10 @@ body {
   }
 
   &.v03 {
+    color: white;
+    background-color: $c-N03 !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-N03;
       background-color: white !important;
@@ -85,6 +98,10 @@ body {
   }
 
   &.v04 {
+    color: white;
+    background-color: $c-N04 !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-N04;
       background-color: white !important;
@@ -93,6 +110,10 @@ body {
   }
 
   &.v05 {
+    color: white;
+    background-color: $c-N05 !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-N05;
       background-color: white !important;
@@ -101,6 +122,10 @@ body {
   }
 
   &.v06 {
+    color: white;
+    background-color: $c-N06 !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-N06;
       background-color: white !important;
@@ -109,6 +134,10 @@ body {
   }
 
   &.v09 {
+    color: white;
+    background-color: $c-News !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-News;
       background-color: white !important;
@@ -117,6 +146,10 @@ body {
   }
 
   &.v10 {
+    color: white;
+    background-color: $c-N10 !important;
+    border-top: 5px solid white !important;
+
     &:hover, &.active {
       color: $c-N10;
       background-color: white !important;
